@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="OpenData.MainPage" 
+             Title="MasterPage">
+
+    <MasterDetailPage.Master >
+        <ContentPage Title="MasterPage">
+            <ContentPage.Content >
+                <StackLayout >
+                    <Image Source="logo" Aspect="AspectFit" WidthRequest="50" HeightRequest="150"/>
+                    <StackLayout Orientation="Vertical" BackgroundColor="#FFDC7E0C" Spacing="20">
+                        <Label Text="Données" FontSize="25" HorizontalOptions="Start" FontFamily="serif" FontAttributes="Bold"/>
+                        <Button  Text="Organisations" FontSize="20" HorizontalOptions="Start" FontFamily="serif" TextColor="#DC7E0C" 
+                                Clicked="Orga_Clicked" BackgroundColor="White" WidthRequest="200"/>
+                        <Button  Text="Ressources" FontSize="20" HorizontalOptions="Start" FontFamily="serif" TextColor="#DC7E0C" 
+                                 Clicked="Res_Clicked" BackgroundColor="White" WidthRequest="200"/>
+                        <Button  Text="Thématiques" FontSize="20" HorizontalOptions="Start" FontFamily="serif" TextColor="#DC7E0C"
+                                 Clicked="Them_Clicked" BackgroundColor="White" WidthRequest="200"/>
+                    </StackLayout>
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Master>
+
+    <MasterDetailPage.Detail>
+        <ContentPage>
+            <ContentPage.Content>
+                <StackLayout Spacing="20" Orientation="Vertical">
+                    <Label Text="Welcome to OpenData" TextColor="#FFDC7E0C" FontSize="30" FontFamily="serif" FontAttributes="Bold"/>
+                    <Image Source="logo" Aspect="AspectFit" WidthRequest="100" HeightRequest="300"/>
+                    <Label Text="copyright by Elvis student of Nan school" HorizontalOptions="Center" VerticalOptions="EndAndExpand" FontFamily="serif"/>
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Detail>
+</MasterDetailPage>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage NavigationPage.HasNavigationBar="False" BackgroundColor="White"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Applical.MainPage">
+
+    <StackLayout Margin="0,20,0,0" Spacing="15">
+
+        <Label Text="Calmoy" FontSize="75" TextColor="#5535A9"  HorizontalOptions="Center" FontFamily="cursive" Margin="0,20,0,0" FontAttributes="Bold" />
+        <Image Source="page.png" Aspect="AspectFill" HeightRequest="300" VerticalOptions="Center"/>
+        <StackLayout VerticalOptions ="Center" HorizontalOptions="Center" Orientation="Vertical">
+            <Button Text="Bienvenue" CornerRadius="50" BackgroundColor="#5535A9" 
+                    Margin="10,0,10,0" Clicked="Button_Clicked_1" VerticalOptions="End" WidthRequest="150" TranslationY="40" TextColor="White" FontAttributes="Bold"/>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

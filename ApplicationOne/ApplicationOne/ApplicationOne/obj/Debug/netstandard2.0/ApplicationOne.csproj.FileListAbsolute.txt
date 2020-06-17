@@ -1,0 +1,15 @@
+C:\Users\HP\source\repos\ApplicationOne\ApplicationOne\ApplicationOne\bin\Debug\netstandard2.0\ApplicationOne.deps.json
+C:\Users\HP\source\repos\ApplicationOne\ApplicationOne\ApplicationOne\bin\Debug\netstandard2.0\ApplicationOne.dll
+C:\Users\HP\source\repos\ApplicationOne\ApplicationOne\ApplicationOne\bin\Debug\netstandard2.0\ref\ApplicationOne.dll
+C:\Users\HP\source\repos\ApplicationOne\ApplicationOne\ApplicationOne\bin\Debug\netstandard2.0\ApplicationOne.pdb
+C:\Users\HP\source\repos\ApplicationOne\ApplicationOne\ApplicationOne\obj\Debug\netstandard2.0\ApplicationOne.csprojAssemblyReference.cache
+C:\Users\HP\source\repos\ApplicationOne\ApplicationOne\ApplicationOne\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\HP\source\repos\ApplicationOne\ApplicationOne\ApplicationOne\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\HP\source\repos\ApplicationOne\ApplicationOne\ApplicationOne\obj\Debug\netstandard2.0\ApplicationOne.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\ApplicationOne\ApplicationOne\ApplicationOne\obj\Debug\netstandard2.0\ApplicationOne.AssemblyInfo.cs
+C:\Users\HP\source\repos\ApplicationOne\ApplicationOne\ApplicationOne\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\HP\source\repos\ApplicationOne\ApplicationOne\ApplicationOne\obj\Debug\netstandard2.0\ApplicationOne.dll
+C:\Users\HP\source\repos\ApplicationOne\ApplicationOne\ApplicationOne\obj\Debug\netstandard2.0\ref\ApplicationOne.dll
+C:\Users\HP\source\repos\ApplicationOne\ApplicationOne\ApplicationOne\obj\Debug\netstandard2.0\ApplicationOne.pdb
+C:\Users\HP\source\repos\ApplicationOne\ApplicationOne\ApplicationOne\obj\Debug\netstandard2.0\Page1.xaml.g.cs
+C:\Users\HP\source\repos\ApplicationOne\ApplicationOne\ApplicationOne\obj\Debug\netstandard2.0\Page2.xaml.g.cs

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage NavigationPage.HasNavigationBar="False"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AppElie.Page2">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout BackgroundColor="White">
+                <StackLayout Orientation="Horizontal" BackgroundColor="Red" Padding="6">
+                    <Frame CornerRadius="100" HeightRequest="30" WidthRequest="30" >
+                        <Image Source="balance" Aspect="AspectFit" WidthRequest="30" HeightRequest="20" />
+                    </Frame>
+                    <StackLayout Orientation="Vertical">
+                        <Label Text="George albert" TextColor="White" FontAttributes="Bold" FontSize="20"/>
+                        <Label Text="mon compte" TextColor="White"/>
+                    </StackLayout>
+                    <Image Source="more" HeightRequest="40" WidthRequest="40" HorizontalOptions="EndAndExpand"/>
+                </StackLayout>
+            </StackLayout>
+            <Grid  Margin="20,0,20,0">
+                <Button Text="Lun" Grid.Row="0" Grid.Column="0" CornerRadius="50" BackgroundColor="White" BorderColor="Black" TextColor="Black"/>
+                <Button Text="Mar" Grid.Row="0" Grid.Column="1" CornerRadius="50" BackgroundColor="White" BorderColor="Black" TextColor="Black" />
+                <Button Text="Sun" Grid.Row="0" Grid.Column="2" CornerRadius="50" BackgroundColor="White" BorderColor="Black" TextColor="Black"/>
+                <Button Text="fri" Grid.Row="0" Grid.Column="3" CornerRadius="50" BackgroundColor="White" BorderColor="Black" TextColor="Black"/>
+                <Button Text="Thir" Grid.Row="0" Grid.Column="4" CornerRadius="50" BackgroundColor="red" BorderColor="Black" TextColor="White"/>
+
+                <Button Text="20" Grid.Row="1" Grid.Column="0" CornerRadius="50" BackgroundColor="White" BorderColor="Black" TextColor="Black"/>
+                <Button Text="23" Grid.Row="1" Grid.Column="1" CornerRadius="50" BackgroundColor="White" BorderColor="Black" TextColor="Black" />
+                <Button Text="24" Grid.Row="1" Grid.Column="2" CornerRadius="50" BackgroundColor="White" BorderColor="Black" TextColor="Black"/>
+                <Button Text="29" Grid.Row="1" Grid.Column="3" CornerRadius="50" BackgroundColor="White" BorderColor="Black" TextColor="Black"/>
+                <Button Text="31" Grid.Row="1" Grid.Column="4" CornerRadius="50" BackgroundColor="red" BorderColor="Black" TextColor="White"/>
+            </Grid>
+
+            <StackLayout Orientation="Horizontal"  Margin="20,0,20,0">
+                <Label Text="COmpte residuel" HorizontalOptions="Start"/>
+                <Label Text="." FontSize="80" TextColor="Red" HorizontalOptions="EndAndExpand"  Margin="0,-65,0,0"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal"  Margin="20,0,20,0">
+                <StackLayout Orientation="Vertical" HorizontalOptions="Start">
+                    <Label Text="COmpte residuel"/>
+                    <Label Text="Today" FontAttributes="Bold"/>
+                </StackLayout>
+                <Label Text="aujourd'hui"   HorizontalOptions="EndAndExpand"  Margin="0,0,0,0"/>
+            </StackLayout>
+
+            <Image Source="spark" Aspect="AspectFit" HeightRequest="100" WidthRequest="250"/>
+
+            <StackLayout Orientation="Vertical" HorizontalOptions="Start">
+                <Label Text="COmpte residuel"/>
+                <Label Text="Today" FontAttributes="Bold"/>
+            </StackLayout>
+
+            <Image Source="rond" Aspect="AspectFit" HeightRequest="200" WidthRequest="250"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

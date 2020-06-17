@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage NavigationPage.HasNavigationBar="False"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             mc:Ignorable="d"
+             x:Class="AppElie.Page4">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="White">
+                <StackLayout BackgroundColor="White">
+                    <StackLayout Orientation="Horizontal" BackgroundColor="Red" Padding="6">
+                        <Frame CornerRadius="100" HeightRequest="30" WidthRequest="30" >
+                            <Image Source="balance" Aspect="AspectFit" WidthRequest="30" HeightRequest="20" />
+                        </Frame>
+                        <StackLayout Orientation="Vertical">
+                            <Label Text="George albert" TextColor="White" FontAttributes="Bold" FontSize="20"/>
+                            <Label Text="mon compte" TextColor="White"/>
+                        </StackLayout>
+                        <Image Source="more" HeightRequest="40" WidthRequest="40" HorizontalOptions="EndAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Margin="0,0,0,25">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Start">
+                        <Label Text="41"/>
+                        <Button BackgroundColor="Green" CornerRadius="50" HeightRequest="20" WidthRequest="20"/>
+                        <Label Text="41"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand" >
+                        <Label Text="41"/>
+                        <Button BackgroundColor="Green" CornerRadius="50" HeightRequest="20" WidthRequest="20"/>
+                        <Label Text="41"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Margin="0,0,0,25">
+                    <Label Text="jan jan jan jan"/>
+                    <Label Text="jan jan jan jan jan"/>
+                    <Label Text="jan jan jan jan jan jan"/>
+                   
+                    
+                </StackLayout>
+                <Image Source="ampr" Aspect="AspectFill" HeightRequest="100" WidthRequest="500"/>
+                <Button Text="jan    jan    jan    nan   nan   nan    nan  " CornerRadius="5" TextColor="White" BackgroundColor="red" HeightRequest="20"/>
+
+                <StackLayout Orientation="Horizontal">
+                    <StackLayout Orientation="Vertical" HorizontalOptions="Start">
+                        <Label Text="COmpte residuel"/>
+                        <Label Text="Today" FontAttributes="Bold"/>
+                    </StackLayout>
+                    <Label Text="today"   HorizontalOptions="EndAndExpand"  Margin="0,0,0,0"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" Margin="0,0,0,15">
+                    <Button Text="120" CornerRadius="50" HeightRequest="20" WidthRequest="50" HorizontalOptions="Start" BorderColor="Black" BorderWidth="2"/>
+                    <yummy:PancakeView BackgroundGradientAngle="100" BackgroundGradientStartColor="Green" BackgroundGradientEndColor="Blue" HeightRequest="5" WidthRequest="300" HorizontalOptions="End"> 
+                        
+                    </yummy:PancakeView>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" Margin="0,0,0,15">
+                    <Button Text="120" CornerRadius="50" HeightRequest="20" WidthRequest="50" HorizontalOptions="Start" BorderColor="Black" BorderWidth="2"/>
+                    <yummy:PancakeView BackgroundGradientAngle="100" BackgroundGradientStartColor="Green" BackgroundGradientEndColor="Blue" HeightRequest="5" WidthRequest="300" HorizontalOptions="End">
+
+                    </yummy:PancakeView>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Margin="0,0,0,15">
+                    <Button Text="120" CornerRadius="50" HeightRequest="20" WidthRequest="50" HorizontalOptions="Start" BorderColor="Black" BorderWidth="2"/>
+                    <yummy:PancakeView BackgroundGradientAngle="100" BackgroundGradientStartColor="Green" BackgroundGradientEndColor="Blue" HeightRequest="5" WidthRequest="300" HorizontalOptions="End">
+
+                    </yummy:PancakeView>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Margin="0,0,0,15">
+                    <Button Text="120" CornerRadius="50" HeightRequest="20" WidthRequest="50" HorizontalOptions="Start" BorderColor="Black" BorderWidth="2"/>
+                    <yummy:PancakeView BackgroundGradientAngle="100" BackgroundGradientStartColor="Green" BackgroundGradientEndColor="Blue" HeightRequest="5" WidthRequest="300" HorizontalOptions="End">
+
+                    </yummy:PancakeView>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Margin="0,0,0,15">
+                    <Button Text="120" CornerRadius="50" HeightRequest="20" WidthRequest="50" HorizontalOptions="Start" BorderColor="Black" BorderWidth="2"/>
+                    <yummy:PancakeView BackgroundGradientAngle="100" BackgroundGradientStartColor="Green" BackgroundGradientEndColor="Blue" HeightRequest="5" WidthRequest="300" HorizontalOptions="End">
+
+                    </yummy:PancakeView>
+                </StackLayout>
+
+                <Button Text="jan    jan    jan    nan   nan   nan    nan  " CornerRadius="5" TextColor="White" BackgroundColor="red" HeightRequest="20" Margin="0,0,0,20"/>
+
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="jan    jan    jan    nan   nan   nan    nan  " TextColor="Green" FontSize="15" HorizontalTextAlignment="Start"/>
+                    <Label Text="jan jan  " TextColor="Red" FontSize="15" HorizontalTextAlignment="End" HorizontalOptions="End"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="jan    jan    jan    nan   nan   nan    nan jan    nan   nan   nan " TextColor="Green" FontSize="15" HorizontalTextAlignment="Start"/>
+                    
+                </StackLayout>
+
+
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="jan    jan    jan    nan   nan   nan    nan nan    nan " TextColor="Green" FontSize="15" HorizontalTextAlignment="Start"/>
+                    <Label Text="jan jan  " TextColor="Red" FontSize="15" HorizontalTextAlignment="End" HorizontalOptions="EndAndExpand"/>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

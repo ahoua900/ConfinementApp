@@ -1,0 +1,38 @@
+C:\Users\HP\source\repos\HOtelAPpl\HOtelAPpl\HOtelAPpl\bin\Debug\netstandard2.0\HOtelAPpl.deps.json
+C:\Users\HP\source\repos\HOtelAPpl\HOtelAPpl\HOtelAPpl\bin\Debug\netstandard2.0\HOtelAPpl.dll
+C:\Users\HP\source\repos\HOtelAPpl\HOtelAPpl\HOtelAPpl\obj\Debug\netstandard2.0\Acceuil.xaml.g.cs
+C:\Users\HP\source\repos\HOtelAPpl\HOtelAPpl\HOtelAPpl\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\HP\source\repos\HOtelAPpl\HOtelAPpl\HOtelAPpl\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\HP\source\repos\HOtelAPpl\HOtelAPpl\HOtelAPpl\obj\Debug\netstandard2.0\Passage.xaml.g.cs
+C:\Users\HP\source\repos\HOtelAPpl\HOtelAPpl\HOtelAPpl\obj\Debug\netstandard2.0\HOtelAPpl.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\HOtelAPpl\HOtelAPpl\HOtelAPpl\obj\Debug\netstandard2.0\HOtelAPpl.AssemblyInfo.cs
+C:\Users\HP\source\repos\HOtelAPpl\HOtelAPpl\HOtelAPpl\obj\Debug\netstandard2.0\HOtelAPpl.dll
+C:\Users\HP\source\repos\HOtelAPpl\HOtelAPpl\HOtelAPpl\obj\Debug\netstandard2.0\ref\HOtelAPpl.dll
+C:\Users\HP\source\repos\HOtelAPpl\HOtelAPpl\HOtelAPpl\obj\Debug\netstandard2.0\HOtelAPpl.pdb
+C:\Users\HP\source\repos\HOtelAPpl\HOtelAPpl\HOtelAPpl\bin\Debug\netstandard2.0\ref\HOtelAPpl.dll
+C:\Users\HP\source\repos\HOtelAPpl\HOtelAPpl\HOtelAPpl\bin\Debug\netstandard2.0\HOtelAPpl.pdb
+C:\Users\HP\source\repos\HOtelAPpl\HOtelAPpl\HOtelAPpl\obj\Debug\netstandard2.0\Nuit.xaml.g.cs
+C:\Users\HP\source\repos\HOtelAPpl\HOtelAPpl\HOtelAPpl\obj\Debug\netstandard2.0\Reserver.xaml.g.cs
+C:\Users\HP\source\repos\HOtelAPpl\HOtelAPpl\HOtelAPpl\obj\Debug\netstandard2.0\Sejour.xaml.g.cs
+C:\Users\HP\source\repos\HOtelAPpl\HOtelAPpl\HOtelAPpl\obj\Debug\netstandard2.0\Register.xaml.g.cs
+C:\Users\HP\source\repos\HOtelAPpl\HOtelAPpl\HOtelAPpl\obj\Debug\netstandard2.0\HOtelAPpl.csprojAssemblyReference.cache
+C:\Users\HP\source\repos\HOtelAPpl\HOtelAPpl\HOtelAPpl\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\HP\Desktop\Projet a achever\HOtelAPpl\HOtelAPpl\HOtelAPpl\bin\Debug\netstandard2.0\HOtelAPpl.deps.json
+C:\Users\HP\Desktop\Projet a achever\HOtelAPpl\HOtelAPpl\HOtelAPpl\bin\Debug\netstandard2.0\HOtelAPpl.dll
+C:\Users\HP\Desktop\Projet a achever\HOtelAPpl\HOtelAPpl\HOtelAPpl\bin\Debug\netstandard2.0\ref\HOtelAPpl.dll
+C:\Users\HP\Desktop\Projet a achever\HOtelAPpl\HOtelAPpl\HOtelAPpl\bin\Debug\netstandard2.0\HOtelAPpl.pdb
+C:\Users\HP\Desktop\Projet a achever\HOtelAPpl\HOtelAPpl\HOtelAPpl\obj\Debug\netstandard2.0\Acceuil.xaml.g.cs
+C:\Users\HP\Desktop\Projet a achever\HOtelAPpl\HOtelAPpl\HOtelAPpl\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\HP\Desktop\Projet a achever\HOtelAPpl\HOtelAPpl\HOtelAPpl\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\HP\Desktop\Projet a achever\HOtelAPpl\HOtelAPpl\HOtelAPpl\obj\Debug\netstandard2.0\Nuit.xaml.g.cs
+C:\Users\HP\Desktop\Projet a achever\HOtelAPpl\HOtelAPpl\HOtelAPpl\obj\Debug\netstandard2.0\Passage.xaml.g.cs
+C:\Users\HP\Desktop\Projet a achever\HOtelAPpl\HOtelAPpl\HOtelAPpl\obj\Debug\netstandard2.0\Reserver.xaml.g.cs
+C:\Users\HP\Desktop\Projet a achever\HOtelAPpl\HOtelAPpl\HOtelAPpl\obj\Debug\netstandard2.0\Sejour.xaml.g.cs
+C:\Users\HP\Desktop\Projet a achever\HOtelAPpl\HOtelAPpl\HOtelAPpl\obj\Debug\netstandard2.0\HOtelAPpl.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Projet a achever\HOtelAPpl\HOtelAPpl\HOtelAPpl\obj\Debug\netstandard2.0\HOtelAPpl.AssemblyInfo.cs
+C:\Users\HP\Desktop\Projet a achever\HOtelAPpl\HOtelAPpl\HOtelAPpl\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\HP\Desktop\Projet a achever\HOtelAPpl\HOtelAPpl\HOtelAPpl\obj\Debug\netstandard2.0\HOtelAPpl.dll
+C:\Users\HP\Desktop\Projet a achever\HOtelAPpl\HOtelAPpl\HOtelAPpl\obj\Debug\netstandard2.0\ref\HOtelAPpl.dll
+C:\Users\HP\Desktop\Projet a achever\HOtelAPpl\HOtelAPpl\HOtelAPpl\obj\Debug\netstandard2.0\HOtelAPpl.pdb
+C:\Users\HP\Desktop\Projet a achever\HOtelAPpl\HOtelAPpl\HOtelAPpl\obj\Debug\netstandard2.0\Registers.xaml.g.cs
+C:\Users\HP\Desktop\Projet a achever\HOtelAPpl\HOtelAPpl\HOtelAPpl\obj\Debug\netstandard2.0\HOtelAPpl.csprojAssemblyReference.cache

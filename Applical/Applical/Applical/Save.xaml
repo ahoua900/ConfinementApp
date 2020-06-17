@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Applical.Save">
+    <ContentPage.Content>
+        <StackLayout Spacing="10" Margin="20,10,20,10" HorizontalOptions="Center" VerticalOptions="Center">
+            <Label Text="ajouter une note" TextColor="#00BFFF" FontSize="35" HorizontalTextAlignment="Start" FontFamily="cursive"/>
+            <Label Text="le nom de la matière" TextColor="#00BFFF" FontSize="17" HorizontalTextAlignment="Start"/>
+            <Entry Placeholder="ma matère" x:Name="matiere" />
+            <Label Text="la note est /20" TextColor="#00BFFF" FontSize="17" HorizontalTextAlignment="Start"/>
+            <Entry Placeholder="la note" x:Name="note"/>
+            <Button Text="Voir" TextColor="White" BackgroundColor="#00BFFF" Margin="50,50,50,0" Clicked="Button_Clicked"/>
+            <Label Text="" x:Name="result"/>
+            <Label Text="" x:Name="result1"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

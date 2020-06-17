@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage BackgroundColor="White" NavigationPage.HasNavigationBar="False"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="CoolApp.Views.Planing">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="20" Spacing="20">
+                <StackLayout Orientation="Horizontal" BackgroundColor="Black">
+                    <Button BackgroundColor="Transparent" Clicked="Button_Clicked_1" Text="Publications" TextColor="White" FontSize="22" HorizontalOptions="Start" FontAttributes="Bold"
+                   FontFamily="serif" />
+                    <Button Text="Publier" TextColor="White" BackgroundColor="#1A237E" FontAttributes="Bold" FontFamily="serif" BorderColor="White" HorizontalOptions="EndAndExpand" Clicked="Pub_Clicked"/>
+                </StackLayout>
+                <StackLayout x:Name="onoff" HorizontalOptions="Center" IsVisible="False">
+                    <Button Text="Actualiser" BackgroundColor="Black" TextColor="White" HeightRequest="40" Clicked="Button_Clicked" HorizontalOptions="Center"/>
+                </StackLayout>
+                <Frame CornerRadius="30" BackgroundColor="#1A237E"  x:Name="pub" IsVisible="False">
+                    <StackLayout Spacing="25">
+                        <Entry Placeholder="Votre nom" x:Name="nom" PlaceholderColor="Gray"/>
+                        <Entry Placeholder="Dire quelque chose sur la publication"  PlaceholderColor="Gray" x:Name="publi"/>
+                        <Button Text="Selectionner une image" TextColor="#1A237E" BackgroundColor="White" FontAttributes="Bold" FontFamily="serif" BorderColor="White" Clicked="Select_Clicked"/>
+                        <Image Aspect="AspectFill" HeightRequest="40" x:Name="ImageR"/>
+                        <Button Text="Prendre une photo" TextColor="#1A237E" BackgroundColor="White" FontAttributes="Bold" FontFamily="serif" BorderColor="White" Clicked="Take_Clicked"/>
+                        <Button Text="Publier" TextColor="White" FontFamily="serif" BackgroundColor="Red" HeightRequest="50"
+                                        CornerRadius="30" HorizontalOptions="Center" Clicked="Send_Clicked"/>
+                    </StackLayout>
+                </Frame>
+                <ListView x:Name="list"  RowHeight="350">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Frame  BackgroundColor="White" CornerRadius="10" BorderColor="Black" HeightRequest="320" >
+                                    <StackLayout>
+                                        <Button Text="{Binding Name}" TextColor="White" CornerRadius="50" FontSize="12" FontFamily="serif" BackgroundColor="#1A237E" HeightRequest="40"
+                                         Margin="0,0,50,0" HorizontalOptions="Start"/>
+                                        <Label Text="{Binding Comment}" TextColor="Black" FontSize="15" />
+                                        <Image Source="home" Aspect="AspectFill" HeightRequest="250"/>
+                                        <StackLayout Orientation="Horizontal" Grid.Row="0" Grid.Column="0" >
+                                            <Button Text="Aimer" TextColor="Black" FontFamily="serif"  BackgroundColor="#1A237E" HeightRequest="40"
+                                                                 Clicked="Like_Clicked" />
+                                            <Image Source="heart" Aspect="AspectFit" WidthRequest="30" HeightRequest="30"/>
+                                        </StackLayout>
+                                    </StackLayout>
+                                </Frame>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                <ListView x:Name="liste"  RowHeight="350">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Frame  BackgroundColor="White" CornerRadius="10" BorderColor="Black"  >
+                                    <StackLayout>
+                                        <Button Text="{Binding Name}" TextColor="White" CornerRadius="50" FontSize="12" FontFamily="serif" BackgroundColor="#1A237E" HeightRequest="40"
+                                        HorizontalOptions="Start"  Margin="0,0,30,0"/>
+                                        <Label Text="{Binding Comment}" TextColor="Black" FontSize="15" />
+                                        <Image Source="home" Aspect="AspectFill" HeightRequest="250"/>
+                                        <StackLayout Orientation="Horizontal" Grid.Row="0" Grid.Column="0" >
+                                            <Button Text="Aimer" TextColor="Black" FontFamily="serif"  BackgroundColor="#1A237E" HeightRequest="40"
+                                                                 Clicked="Like_Clicked" />
+                                            <Image Source="heart" Aspect="AspectFit" WidthRequest="30" HeightRequest="30" x:Name="like"/>
+                                        </StackLayout>
+                                    </StackLayout>
+                                </Frame>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

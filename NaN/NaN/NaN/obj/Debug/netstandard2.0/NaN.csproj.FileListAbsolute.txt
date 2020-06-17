@@ -1,0 +1,37 @@
+C:\Users\HP\source\repos\NaN\NaN\NaN\bin\Debug\netstandard2.0\NaN.deps.json
+C:\Users\HP\source\repos\NaN\NaN\NaN\bin\Debug\netstandard2.0\NaN.dll
+C:\Users\HP\source\repos\NaN\NaN\NaN\obj\Debug\netstandard2.0\NaN.csprojAssemblyReference.cache
+C:\Users\HP\source\repos\NaN\NaN\NaN\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\HP\source\repos\NaN\NaN\NaN\obj\Debug\netstandard2.0\KnowNan.xaml.g.cs
+C:\Users\HP\source\repos\NaN\NaN\NaN\obj\Debug\netstandard2.0\Learning.xaml.g.cs
+C:\Users\HP\source\repos\NaN\NaN\NaN\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\HP\source\repos\NaN\NaN\NaN\obj\Debug\netstandard2.0\Models\Specialités.xaml.g.cs
+C:\Users\HP\source\repos\NaN\NaN\NaN\obj\Debug\netstandard2.0\Models\ViewSpe.xaml.g.cs
+C:\Users\HP\source\repos\NaN\NaN\NaN\obj\Debug\netstandard2.0\NaN.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\NaN\NaN\NaN\obj\Debug\netstandard2.0\NaN.AssemblyInfo.cs
+C:\Users\HP\source\repos\NaN\NaN\NaN\bin\Debug\netstandard2.0\ref\NaN.dll
+C:\Users\HP\source\repos\NaN\NaN\NaN\bin\Debug\netstandard2.0\NaN.pdb
+C:\Users\HP\source\repos\NaN\NaN\NaN\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\HP\source\repos\NaN\NaN\NaN\obj\Debug\netstandard2.0\NaN.dll
+C:\Users\HP\source\repos\NaN\NaN\NaN\obj\Debug\netstandard2.0\ref\NaN.dll
+C:\Users\HP\source\repos\NaN\NaN\NaN\obj\Debug\netstandard2.0\NaN.pdb
+C:\Users\HP\Desktop\Projet a achever\NaN\NaN\NaN\bin\Debug\netstandard2.0\NaN.deps.json
+C:\Users\HP\Desktop\Projet a achever\NaN\NaN\NaN\bin\Debug\netstandard2.0\NaN.dll
+C:\Users\HP\Desktop\Projet a achever\NaN\NaN\NaN\bin\Debug\netstandard2.0\ref\NaN.dll
+C:\Users\HP\Desktop\Projet a achever\NaN\NaN\NaN\bin\Debug\netstandard2.0\NaN.pdb
+C:\Users\HP\Desktop\Projet a achever\NaN\NaN\NaN\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\HP\Desktop\Projet a achever\NaN\NaN\NaN\obj\Debug\netstandard2.0\Cours.xaml.g.cs
+C:\Users\HP\Desktop\Projet a achever\NaN\NaN\NaN\obj\Debug\netstandard2.0\KnowNan.xaml.g.cs
+C:\Users\HP\Desktop\Projet a achever\NaN\NaN\NaN\obj\Debug\netstandard2.0\Learning.xaml.g.cs
+C:\Users\HP\Desktop\Projet a achever\NaN\NaN\NaN\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\HP\Desktop\Projet a achever\NaN\NaN\NaN\obj\Debug\netstandard2.0\Models\Specialités.xaml.g.cs
+C:\Users\HP\Desktop\Projet a achever\NaN\NaN\NaN\obj\Debug\netstandard2.0\Models\ViewSpe.xaml.g.cs
+C:\Users\HP\Desktop\Projet a achever\NaN\NaN\NaN\obj\Debug\netstandard2.0\SignIn.xaml.g.cs
+C:\Users\HP\Desktop\Projet a achever\NaN\NaN\NaN\obj\Debug\netstandard2.0\SignUp.xaml.g.cs
+C:\Users\HP\Desktop\Projet a achever\NaN\NaN\NaN\obj\Debug\netstandard2.0\NaN.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Projet a achever\NaN\NaN\NaN\obj\Debug\netstandard2.0\NaN.AssemblyInfo.cs
+C:\Users\HP\Desktop\Projet a achever\NaN\NaN\NaN\obj\Debug\netstandard2.0\NaN.dll
+C:\Users\HP\Desktop\Projet a achever\NaN\NaN\NaN\obj\Debug\netstandard2.0\ref\NaN.dll
+C:\Users\HP\Desktop\Projet a achever\NaN\NaN\NaN\obj\Debug\netstandard2.0\NaN.pdb
+C:\Users\HP\Desktop\Projet a achever\NaN\NaN\NaN\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\HP\Desktop\Projet a achever\NaN\NaN\NaN\obj\Debug\netstandard2.0\NaN.csprojAssemblyReference.cache

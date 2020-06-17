@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="HOtelAPpl.Registers">
+    <ContentPage.Content>
+        <StackLayout Spacing="20">
+            <Label Text="Afficher les selections" FontSize="20" TextColor="#232121" FontFamily="serif"/>
+            <StackLayout Orientation="Horizontal" Spacing="12">
+                <Button Text="Passage" FontSize="15" FontFamily="serif" BackgroundColor="#FFE163" TextColor="Black" Clicked="Passe_Clicked"/>
+                <Button Text="Nuit" FontSize="15" FontFamily="serif" BackgroundColor="#FFE163" TextColor="Black" Clicked="Nuit_Clicked"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Spacing="12">
+                <Button Text="Sejour" FontSize="15" FontFamily="serif" BackgroundColor="#FFE163" TextColor="Black" Clicked="Sej_Clicked"/>
+                <Button Text="Reserver" FontSize="15" FontFamily="serif" BackgroundColor="#FFE163" TextColor="Black" Clicked="Res_Clicked"/>
+            </StackLayout>
+            <ListView x:Name="amour" HeightRequest="300" RowHeight="200" BackgroundColor="#232121">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell >
+                            <StackLayout>
+                                <Label Text="{Binding Types}" FontSize="15" FontFamily="serif" TextColor="#FFE163"/>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="Chambre :" FontSize="15" FontFamily="serif" TextColor="White"/>
+                                    <Label Text="{Binding Chambre}" FontSize="15" FontFamily="serif" TextColor="#FFE163"/>
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="Heure entrée :" FontSize="15" FontFamily="serif" TextColor="White"/>
+                                    <Label Text="{Binding Entrée}" FontSize="15" FontFamily="serif" TextColor="#FFE163"/>
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="Heure sortie :" FontSize="15" FontFamily="serif" TextColor="White"/>
+                                    <Label Text="{Binding Sortie}" FontSize="15" FontFamily="serif" TextColor="#FFE163"/>
+                                </StackLayout>
+                                <Label Text="{Binding Piece}" FontSize="15" FontFamily="serif" TextColor="#FFE163"/>
+                                
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            
+
+            <Button Text="Retour" Clicked="Button_Clicked" BackgroundColor="yellow" TextColor="White" CornerRadius="50"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

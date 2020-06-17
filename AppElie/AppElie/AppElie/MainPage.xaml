@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+    mc:Ignorable="d"
+             x:Class="AppElie.MainPage">
+    <yummy:PancakeView BackgroundGradientStartColor="red" BackgroundGradientEndColor="Black" BackgroundGradientAngle="65">
+        <StackLayout Padding="30,20,30,0">
+            <Frame BackgroundColor="Transparent" BorderColor="white" HeightRequest="50" WidthRequest="20" Margin="100,0,100,10" >
+                <ImageButton Source="balance" Aspect="AspectFit" HeightRequest="40" WidthRequest="30" BackgroundColor="Transparent"  />
+            </Frame>
+            
+            
+            <Label Text="WELCOME" TextColor="White" FontSize="40" HorizontalTextAlignment="Center"/>
+            <StackLayout Margin="0,40,0,40">
+                <Frame CornerRadius="50" HeightRequest="30" BackgroundColor="White" >
+                    <Entry Placeholder="your email adress"/>
+                </Frame>
+                <Frame CornerRadius="50" HeightRequest="30" BackgroundColor="White" Margin="0,20,0,20">
+                    <Entry Placeholder="your email adress"/>
+                </Frame>
+                <Button Text="Login to your account" BackgroundColor="Red" TextColor="White" CornerRadius="50"
+                        HeightRequest="50" Clicked="Button_Clicked"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Label Text="New visitor ?" TextColor="White"/>
+                <Label Text="Register now" TextColor="Red"/>
+            </StackLayout>
+        </StackLayout>
+    </yummy:PancakeView>
+    
+
+</ContentPage>

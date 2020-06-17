@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage NavigationPage.HasNavigationBar="False"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ATschool.Matiere">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#282D2D">
+            <StackLayout Orientation="Horizontal" Spacing="20">
+                <Label TextColor="#FF13E6F3" FontSize="25" FontFamily="serif" x:Name="mat"/>
+                <Label TextColor="White" FontSize="25" FontFamily="serif" x:Name="hou"/>
+            </StackLayout>
+            <ListView BackgroundColor="#282D2D" x:Name="fulle">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical">
+                                <StackLayout Orientation="Horizontal" Spacing="20">
+                                    <Label TextColor="#FF13E6F3" FontSize="20" FontFamily="serif" Text="{Binding Theme}"/>
+                                    <Label TextColor="White" FontSize="15" FontFamily="serif" Text="{Binding Hour}"/>
+                                </StackLayout>
+                                
+                            </StackLayout>
+                            
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

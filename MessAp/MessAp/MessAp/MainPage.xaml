@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage NavigationPage.HasNavigationBar="False"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:renderers="clr-namespace:MessAp.Renderers"
+             mc:Ignorable="d"
+             x:Class="MessAp.MainPage">
+
+    <ScrollView>
+        <StackLayout>
+            <Image Source="student" Aspect="AspectFill" HeightRequest="230"/>
+            <Frame BackgroundColor="#302B2B" CornerRadius="30" TranslationY="-50">
+
+                <StackLayout Spacing="20" Padding="20" TranslationY="-20">
+                    <Label Text="Inscription" TextColor="White" FontSize="25" FontFamily="serif" 
+                       HorizontalOptions="Center" CharacterSpacing="5"/>
+                    <Frame CornerRadius="50" BackgroundColor="#C6BFBF" HeightRequest="40" Padding="2">
+                        <renderers:BorderlessEntry Placeholder="Username" x:Name="nom" ClearButtonVisibility="WhileEditing"/>
+                    </Frame>
+                    <Frame CornerRadius="50" BackgroundColor="#C6BFBF" HeightRequest="40" Padding="2">
+                        <renderers:BorderlessEntry Placeholder="Email" x:Name="email" ClearButtonVisibility="WhileEditing"/>
+                    </Frame>
+                    <Frame CornerRadius="50" BackgroundColor="#C6BFBF" HeightRequest="40" Padding="2">
+                        <renderers:BorderlessEntry Placeholder="Mot de passe" x:Name="Mdpasse" ClearButtonVisibility="WhileEditing" IsPassword="True"/>
+                    </Frame>
+
+                    <Button Text="Enregistrer" BackgroundColor="Red" TextColor="White" FontAttributes="Bold" WidthRequest="100"
+                        HeightRequest="40" Clicked="Button_Clicked" CornerRadius="50" FontFamily="serif"/>
+                    <Button Text="Apercu" BackgroundColor="White" TextColor="Black" FontAttributes="Bold" WidthRequest="100"
+                        HeightRequest="40" Clicked="Show_Clicked" CornerRadius="50" FontFamily="serif"/>
+                    <StackLayout Orientation="Horizontal" BackgroundColor="#C6BFBF">
+                        <renderers:BorderlessEntry Placeholder="code"  FontFamily="serif" x:Name="code"/>
+                        <Button Text="Scanner" TextColor="White" BackgroundColor="Red" 
+                            HeightRequest="40" WidthRequest="100" HorizontalOptions="EndAndExpand"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Button Text="Supprimer" BackgroundColor="Red" TextColor="White" FontAttributes="Bold" WidthRequest="150"
+                        HeightRequest="40" Clicked="Delete_Clicked" CornerRadius="50" FontFamily="serif"/>
+                        <Button Text="Mise a jour" BackgroundColor="White" TextColor="Black" FontAttributes="Bold" WidthRequest="150"
+                        HeightRequest="40" Clicked="Update_Clicked" CornerRadius="50" FontFamily="serif"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                        <Label Text="Avez vous un compte ?" TextColor="White"/>
+                        <Button Text="Connectez-vous" BackgroundColor="Transparent" TextColor="Red" FontSize="12" Clicked="Button_Clicked_1" TranslationY="-10"/>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+            <Label Text="Mes coordonnées" FontSize="23" TextColor="Black" FontFamily="serif" HorizontalOptions="Center"/>
+           
+            <ListView RowHeight="80" x:Name="FromList">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical">
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="Personne" FontSize="15" FontFamily="serif" TextColor="Black"/>
+                                    <Label Text="{Binding Id}" TextColor="Red" FontSize="13"/>
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal">
+                                    
+                                    <Label Text="Username = " FontSize="15" FontFamily="serif" TextColor="Black"/>
+                                    <Label Text="{Binding User}" TextColor="Red" FontSize="13"/>
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="Adresse email = " FontSize="15" FontFamily="serif" TextColor="Black"/>
+                                    <Label Text="{Binding Email} " TextColor="Red" FontSize="13"/>
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="Mot de passe = " FontSize="15" FontFamily="serif" TextColor="Black"/>
+                                    <Label Text="{Binding Password}" TextColor="Red" FontSize="13"/>
+                                </StackLayout>
+
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            
+            
+        </StackLayout>
+    </ScrollView>
+    
+
+</ContentPage>

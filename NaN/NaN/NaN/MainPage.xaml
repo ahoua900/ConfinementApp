@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage NavigationPage.HasNavigationBar="False"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="NaN.MainPage"> 
+
+    <StackLayout BackgroundColor="#312E2E">
+        <Label Text="Welcome To" TextColor="White" FontSize="30" HorizontalTextAlignment="Center" FontFamily="serif" FontAttributes="Bold"/>
+        <Label Text="NaN" TextColor="#9F81F7" FontSize="45" HorizontalTextAlignment="Center" FontFamily="cursive" FontAttributes="Bold"/>
+        <Grid Margin="0,50,0,20" TranslationY="30">
+            <Image Source="nan" Aspect="AspectFit" HeightRequest="200" WidthRequest="60" Grid.Row="0" Grid.Column="0"/>
+            <StackLayout Orientation="Vertical" HeightRequest="200" WidthRequest="60" Grid.Row="0" Grid.Column="1" BackgroundColor="#312E2E">
+                <Label Text="Programmer NaN" TextColor="#9F81F7" FontSize="25" FontFamily="serif"/>
+                <Label Text="c'est pas sorcier" TextColor="White" FontAttributes="Italic" FontSize="22" FontFamily="serif" VerticalTextAlignment="Center"/>
+                <Label Text="Le monde du numérique" TextColor="#9F81F7" FontAttributes="Italic" FontSize="22" FontFamily="serif" VerticalTextAlignment="Center"/>
+            </StackLayout>
+        </Grid>
+        <Button Text="Connexion" BackgroundColor="#9F81F7" CornerRadius="50" TextColor="White" Margin="25,0,25,25" Clicked="Begin_Clicked" VerticalOptions="EndAndExpand" />
+    </StackLayout>
+
+</ContentPage>

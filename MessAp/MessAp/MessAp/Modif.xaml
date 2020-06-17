@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage NavigationPage.HasNavigationBar="False" BackgroundImageSource="student" 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             xmlns:renderers="clr-namespace:MessAp.Renderers"
+             mc:Ignorable="d"
+             x:Class="MessAp.Modif">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout   >
+                <StackLayout BackgroundColor="White" Margin="20,0,20,0" TranslationY="40">
+                    
+                    <yummy:PancakeView CornerRadius="100"  HeightRequest="150" Margin="80,0,80,0" TranslationY="-30">
+                        <Image Source="home" HorizontalOptions="Center" Aspect="Fill"/>
+                    </yummy:PancakeView>
+                    <ImageButton Source="photo" WidthRequest="50" HorizontalOptions="Center" BackgroundColor="Black" TranslationY="-60"
+                                 HeightRequest="50" CornerRadius="50" Margin="80,0,80,0"/>
+                    <StackLayout/>
+                    <StackLayout Orientation="Vertical" Padding="20,0,20,0" TranslationY="-30">
+                        <Label Text="Mon profil" FontSize="20" 
+                           TextColor="Black" HorizontalOptions="Center" 
+                           FontAttributes="Bold" CharacterSpacing="4" FontFamily="serif"/>
+                        <StackLayout Orientation="Vertical" >
+                            <Label Text="Username" FontSize="12" FontFamily="serif"/>
+                            <Frame BackgroundColor="LightGray"  HeightRequest="40" Padding="2">
+                                <renderers:BorderlessEntry Placeholder="Username" ClearButtonVisibility="WhileEditing" x:Name="UserM"/>
+                            </Frame>
+
+                        </StackLayout>
+                        <StackLayout Orientation="Vertical" >
+                            <Label Text="Email" FontSize="12" FontFamily="serif"/>
+                            <Frame BackgroundColor="LightGray"  HeightRequest="40" Padding="2">
+                                <renderers:BorderlessEntry Placeholder="Username" ClearButtonVisibility="WhileEditing"  x:Name="EmailM"/>
+                            </Frame>
+                        </StackLayout>
+                        <StackLayout Orientation="Vertical" >
+                            <Label Text="Mot de passe" FontSize="12" FontFamily="serif"/>
+                            <Frame BackgroundColor="LightGray"  HeightRequest="40" Padding="2">
+                                <renderers:BorderlessEntry Placeholder="mot de passe" ClearButtonVisibility="WhileEditing" IsPassword="True" x:Name="MdpasseM"/>
+                            </Frame>
+                        </StackLayout>
+                        <Button Text="Enregistrer" FontFamily="serif" FontAttributes="Bold" FontSize="15" BackgroundColor="White"
+                            TextColor="Black" BorderColor="Black" BorderWidth="2" VerticalOptions="EndAndExpand" Clicked="Button_Clicked"/>
+                    </StackLayout>
+
+                </StackLayout>
+                
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

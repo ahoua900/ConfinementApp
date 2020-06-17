@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage BackgroundImageSource="splashing.jpg"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApplicationOne.MainPage">
+    
+    <StackLayout  >
+        <!-- Place new controls here -->
+        <Image Source="C:\Users\HP\source\repos\ApplicationOne\ApplicationOne\ApplicationOne\images\key-4900643_1920.jpg" Aspect="AspectFill"/>
+        <Label Text="Inscrivez vous" TextColor="#00BFFF" FontSize="40" FontFamily="cursive" 
+           HorizontalOptions="Center"
+          />
+        <Entry Placeholder="nom" x:Name="nom" PlaceholderColor="#444" TextColor="White"/>
+        <Label Text="" x:Name="labelName" TextColor="Red"/>
+        <Entry Placeholder="prenom" x:Name="prenom" PlaceholderColor="#444" TextColor="White"/>
+        <Label Text="" x:Name="LabelPre" TextColor="Red"/>
+        <Entry Placeholder="email" x:Name="emaile" PlaceholderColor="#444" TextColor="White"/>
+        <Label Text="" x:Name="labelEm" TextColor="Red"/>
+        <Entry Placeholder="mot de passe" x:Name="password" IsPassword="True" PlaceholderColor="#444" TextColor="White"/>
+        <Label Text="" x:Name="labelPass" TextColor="Red"/>
+        <Entry Placeholder="Confirme mot de passe" x:Name="cnfPassword" IsPassword="True" PlaceholderColor="#444" TextColor="White"/>
+        <Label Text="" x:Name="labelPasscnf" TextColor="Red"/>
+        <Button Text="connexion" BackgroundColor="#00BFFF" TextColor="white" Padding="20" CornerRadius="50" Margin="20,10,20,10" Clicked="Button_Clicked"/>
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage BackgroundColor="White" NavigationPage.HasNavigationBar="False"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             mc:Ignorable="d"
+             x:Class="CoolApp.Views.ViewMes">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button x:Name="conte" FontFamily="serif" BackgroundColor="#1A237E" TextColor="White" FontSize="20"/>
+            <StackLayout Orientation="Horizontal">
+                <yummy:PancakeView CornerRadius="100" HorizontalOptions="Start">
+                    <Image x:Name="profil"
+                                       Aspect="AspectFit"
+                                       HeightRequest="50"
+                                       WidthRequest="50"
+                                       Source="home"/>
+                </yummy:PancakeView>
+                <Frame BackgroundColor="Gray" CornerRadius="35" HorizontalOptions="Start">
+                    <Label Text="Salut bro comment vas tu ?" TextColor="White" FontSize="15"/>
+                </Frame>
+            </StackLayout>
+            <Frame BackgroundColor="#1A237E" CornerRadius="35" HorizontalOptions="EndAndExpand">
+                <Label x:Name="messa" TextColor="White" FontSize="15"/>
+            </Frame>
+            <StackLayout Orientation="Horizontal" VerticalOptions="EndAndExpand">
+                <Entry Placeholder="Ecrire un mesage"  PlaceholderColor="Gray" HorizontalOptions="Start"/>
+                <Button Text="Envoyer" TextColor="White" BackgroundColor="Black" FontFamily="serif" HorizontalOptions="EndAndExpand"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

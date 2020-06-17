@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="OpenData.Vues.ViewOr">
+    <ContentPage.Content>
+        <StackLayout Spacing="20" Orientation="Vertical">
+            <StackLayout HeightRequest="60" BackgroundColor="Gray">
+                <Label x:Name="title" FontSize="20" TextColor="White" FontFamily="serif"/>
+            </StackLayout>
+            <Label x:Name="descri" FontSize="15" TextColor="Black" FontFamily="serif"/>
+            <StackLayout Orientation="Horizontal">
+                <Label Text=" Website :" FontSize="15" TextColor="Black" FontFamily="serif"/>
+                <Label x:Name="web" FontSize="15" TextColor="#FFDC7E0C" FontFamily="serif"/>
+
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text=" Phone :" FontSize="15" TextColor="Black" FontFamily="serif"/>
+                <Label x:Name="tel" FontSize="15" TextColor="#FFDC7E0C" FontFamily="serif"/>
+
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text=" Email :" FontSize="15" TextColor="Black" FontFamily="serif"/>
+                <Label x:Name="email" FontSize="15" TextColor="#FFDC7E0C" FontFamily="serif"/>
+
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

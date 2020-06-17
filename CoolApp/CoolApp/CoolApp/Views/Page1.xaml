@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage BackgroundColor="Black" NavigationPage.HasNavigationBar="False"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
+             mc:Ignorable="d"
+             x:Class="CoolApp.Views.Page1">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Black" Padding="15" Spacing="25">
+            <Label Text="Cool App" TextColor="White" FontSize="45" FontAttributes="Bold" FontFamily="cursive" HorizontalOptions="Center"/>
+            <Label Text="Discutez , partagez vos meilleurs moments entre famille et planifiez vos plan ici" TextColor="Gray" FontFamily="serif" HorizontalOptions="Start"/>
+            <Label Text="Trop Cool !!!" TextColor="Gray" FontFamily="cursive" FontSize="35" HorizontalOptions="Start"/>
+            <forms:AnimationView 
+                x:Name="animationView" 
+                Grid.Row="1"
+                Animation="welcome.json" 
+                Loop="True" 
+                AutoPlay="True"
+                HeightRequest="250"
+                WidthRequest="320"/>
+            <Button Text="Go to Chat" BackgroundColor="#1A237E" TextColor="White" FontSize="20" CornerRadius="50" HeightRequest="40" 
+                HorizontalOptions="Center" WidthRequest="200" FontAttributes="Bold"  Clicked="Button_Clicked" FontFamily="cursive"/>
+            <Frame CornerRadius="20" BackgroundColor="White" x:Name="not" IsVisible="False">
+                <Label Text="Pas de connexion internet" TextColor="Black" FontAttributes="Bold" FontSize="15" HorizontalTextAlignment="Center" />
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

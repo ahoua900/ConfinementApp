@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage NavigationPage.HasNavigationBar="False"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             mc:Ignorable="d"
+             x:Class="HOtelAPpl.Acceuil">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#454349">
+            <StackLayout Orientation="Horizontal" >
+                <Label Text="Selection d'options" TextColor="White" FontSize="25" HorizontalOptions="Start" Margin="20,0,20,0" 
+                       VerticalTextAlignment="Center"
+                       HorizontalTextAlignment="Center" FontFamily="serif"/>
+                <yummy:PancakeView  WidthRequest="200" HeightRequest="120" HorizontalOptions="End" CornerRadius="50,0,0,50">
+                    <Image Source="select" Aspect="AspectFill"/>
+                </yummy:PancakeView>
+                
+           </StackLayout>
+
+            <StackLayout Orientation="Horizontal" Spacing="20" HorizontalOptions="Center">
+                <StackLayout Orientation="Vertical">
+                    <StackLayout Orientation="Vertical" Spacing="20">
+                        <Frame CornerRadius="20">
+                            <StackLayout Orientation="Vertical">
+                                <Image Source="sejo" Aspect="AspectFit" WidthRequest="60" HeightRequest="80"/>
+                                <Button Text="PAsse" CornerRadius="50" BackgroundColor="#232121" TextColor="White" Clicked="Button_Clicked"/>
+                            </StackLayout>
+                        </Frame>
+                        <Frame CornerRadius="20">
+                            <StackLayout Orientation="Vertical">
+                                <Image Source="sejo" Aspect="AspectFit" WidthRequest="60" HeightRequest="80"/>
+                                <Button Text="Nuit" CornerRadius="50" BackgroundColor="#FFE163" TextColor="Black" Clicked="Button_Clicked_1"/>
+                            </StackLayout>
+                        </Frame>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Vertical">
+                    <StackLayout Orientation="Vertical" Spacing="20">
+                        <Frame CornerRadius="20">
+                            <StackLayout Orientation="Vertical">
+                                <Image Source="sejo" Aspect="AspectFit" WidthRequest="60" HeightRequest="80"/>
+                                <Button Text="sejour" CornerRadius="50" BackgroundColor="#232121" TextColor="White" Clicked="Button_Clicked_2"/>
+                            </StackLayout>
+                        </Frame>
+                        <Frame CornerRadius="20" >
+                            <StackLayout Orientation="Vertical">
+                                <Image Source="sejo" Aspect="AspectFit" WidthRequest="60" HeightRequest="80"/>
+                                <Button Text="Reserver" CornerRadius="50" BackgroundColor="#FFE163" TextColor="Black" Clicked="Button_Clicked_3"/>
+                            </StackLayout>
+                        </Frame>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+            
+            <Label Text="Bonne arrivée !" TextColor="White" FontSize="25" HorizontalOptions="End" Margin="20,0,20,0" 
+                       VerticalTextAlignment="Center"
+                       HorizontalTextAlignment="Center" FontFamily="serif"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

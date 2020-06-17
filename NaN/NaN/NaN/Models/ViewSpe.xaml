@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage NavigationPage.HasNavigationBar="False"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             mc:Ignorable="d"
+             x:Class="NaN.Models.ViewSpe">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <StackLayout Orientation="Horizontal" BackgroundColor="#312E2E">
+                    <Label x:Name="titre" TextColor="White" FontSize="23" FontAttributes="Bold" FontFamily="serif" VerticalTextAlignment="Center"/>
+                    <yummy:PancakeView CornerRadius="100" HeightRequest="90" WidthRequest="70" HorizontalOptions="EndAndExpand">
+                        <Image x:Name="image" HeightRequest="50" WidthRequest="50" Aspect="AspectFit" />
+                    </yummy:PancakeView>
+                </StackLayout>
+                <Label x:Name="theme" TextColor="#9F81F7" FontSize="20" FontAttributes="Bold" FontFamily="serif" />
+                <ScrollView>
+                    <Label x:Name="descri" FontSize="15" TextColor="Black"/>
+                </ScrollView>
+
+                <Button Text="Debuter avec nous" BackgroundColor="#9F81F7" TextColor="White" CornerRadius="50" HeightRequest="40" 
+                   Clicked="Button_Clicked" VerticalOptions="EndAndExpand" Margin="10,0,10,20"/>
+                <StackLayout Spacing="20" Orientation="Vertical" x:Name="cour" BackgroundColor="#312E2E" IsVisible="False" >
+                    <Label Text="Lecon du jour" TextColor="#9F81F7" FontSize="25" FontAttributes="Bold" FontFamily="serif"/>
+                    <Label x:Name="lecon" Text="Vos cours seront sous fore de liens youtube ou de documentation. Les videos seront affichées au fil du temps. Merci d'etre avec nous." TextColor="White" FontSize="15" FontFamily="serif"/>
+                    <Button Text="Terminer" TextColor="White" FontSize="15"  BackgroundColor="#9F81F7" CornerRadius="50" HeightRequest="40" Clicked="Button_Clicked_1"/>
+                </StackLayout>
+                <Grid>
+                    
+                    <Button Text="Quiz" TextColor="White" FontSize="15" Grid.Row="0" Grid.Column="0"  BackgroundColor="#9F81F7" CornerRadius="50" HeightRequest="40" Clicked="Button_Clicked_2" x:Name="die" IsVisible="False"/>
+                </Grid>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

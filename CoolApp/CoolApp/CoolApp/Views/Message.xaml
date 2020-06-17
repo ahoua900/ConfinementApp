@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage BackgroundColor="White" NavigationPage.HasNavigationBar="False"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             mc:Ignorable="d"
+             x:Class="CoolApp.Views.Message">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White">
+
+            <StackLayout Orientation="Horizontal" BackgroundColor="White">
+                <Label Text="Messages" TextColor="#1A237E" FontFamily="serif" FontAttributes="Bold" FontSize="25" HorizontalOptions="Start" />
+                <Button BackgroundColor="#1A237E"
+                    Text="Nouveau message"
+                    TextColor="White" 
+                    FontFamily="serif"
+                    Clicked="Button_Clicked"
+                    CornerRadius="10"                       
+                    HorizontalOptions="EndAndExpand"/>
+            </StackLayout>
+            <StackLayout BackgroundColor="White" HeightRequest="250" Spacing="30" x:Name="send" IsVisible="False">
+                <Entry Placeholder="Contacts" x:Name="cont" PlaceholderColor="Gray"/>
+                <Entry Placeholder="Ecrire votre message" PlaceholderColor="Gray" x:Name="mess"/>
+                <Button BackgroundColor="#1A237E"
+                    Text="Envoyer"
+                    TextColor="White" 
+                    FontFamily="serif"
+                    Clicked="Button_Clicked_1"                       
+                    HorizontalOptions="EndAndExpand"/>
+            </StackLayout>
+            <ListView x:Name="Sende" SeparatorColor="Black" SeparatorVisibility="Default" RowHeight="100">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal">
+                                <yummy:PancakeView CornerRadius="100" HorizontalOptions="Start">
+                                    <Image x:Name="profil"
+                                       Aspect="AspectFit"
+                                       HeightRequest="60"
+                                       WidthRequest="60"
+                                       Source="home"/>      
+                                </yummy:PancakeView>
+                                <StackLayout Orientation="Vertical" HorizontalOptions="End">
+                                    <Label Text="{Binding Contact}" FontAttributes="Bold" TextColor="Black" FontFamily="serif" FontSize="20"/>
+                                    <Label Text="{Binding Message}" FontAttributes="Bold" TextColor="Black" FontFamily="serif" FontSize="13"/>
+                                </StackLayout>
+                                <TimePicker Time="11:00" TextColor="Black" x:Name="time" FontFamily="cursive" HorizontalOptions="EndAndExpand"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            
+           
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

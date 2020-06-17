@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage NavigationPage.HasNavigationBar="False" BackgroundColor="#232121"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             mc:Ignorable="d"
+             x:Class="HOtelAPpl.Reserver">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" BackgroundColor="#232121">
+            <Button Text="Afficher" Clicked="Vue_Clicked"  
+                            BackgroundColor="#FFE163" CornerRadius="50" HorizontalOptions="EndAndExpand" HeightRequest="40"/>
+
+            <StackLayout BackgroundColor="#232121" HeightRequest="500" Margin="25,0,25,0" x:Name="list" IsVisible="False">
+                <ListView x:Name="amour" HeightRequest="500" RowHeight="150" BackgroundColor="#232121">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell >
+                                <StackLayout>
+                                    <Label Text="{Binding Types}" FontSize="15" FontFamily="serif" TextColor="#FFE163"/>
+                                    <StackLayout Orientation="Horizontal">
+                                        <Label Text="Chambre :" FontSize="15" FontFamily="serif" TextColor="White"/>
+                                        <Label Text="{Binding Chambre}" FontSize="15" FontFamily="serif" TextColor="#FFE163"/>
+                                    </StackLayout>
+                                    <StackLayout Orientation="Horizontal">
+                                        <Label Text="Heure entrée :" FontSize="15" FontFamily="serif" TextColor="White"/>
+                                        <Label Text="{Binding Entrée}" FontSize="15" FontFamily="serif" TextColor="#FFE163"/>
+                                    </StackLayout>
+                                    <StackLayout Orientation="Horizontal">
+                                        <Label Text="Heure sortie :" FontSize="15" FontFamily="serif" TextColor="White"/>
+                                        <Label Text="{Binding Sortie}" FontSize="15" FontFamily="serif" TextColor="#FFE163"/>
+                                    </StackLayout>
+                                    <Label Text="{Binding Piece}" FontSize="15" FontFamily="serif" TextColor="#FFE163"/>
+                                    
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+                <Button Text="Fermer" Clicked="Close_Clicked" BackgroundColor="yellow" TextColor="Black" CornerRadius="50"/>
+            </StackLayout>
+            <StackLayout Orientation="Vertical" Spacing="20">
+                <Label Text="Reserver" FontSize="30" FontAttributes="Bold" TextColor="White" FontFamily="serif" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
+                <yummy:PancakeView WidthRequest="300" HeightRequest="500" CornerRadius="0,100,0,0" VerticalOptions="EndAndExpand" BackgroundColor="White">
+                    <StackLayout>
+                        <StackLayout Orientation="Vertical" Margin="15,0,15,10">
+                            <Label Text="Jour d'arrivée" TextColor="Black"/>
+                            <DatePicker MinimumDate="01/01/2020"
+                            MaximumDate="12/31/2020"
+                            Date="01/01/2020" 
+                        Format="D" x:Name="arrivage"/>
+                            <Label Text="Type de reservation" TextColor="Black"/>
+                            <Entry Placeholder="reserver" x:Name="type" FontFamily="serif"/>
+                            <Label Text="Heure d'entrée" TextColor="Black"/>
+                            <Entry   x:Name="heureEntree"
+                                     />
+                            <Label Text="Heure de sortie" TextColor="Black"/>
+                            <Entry   x:Name="heureSortie"
+                                     />
+                            <Label Text="Numéro chambre" TextColor="Black" />
+                            <Entry Placeholder="Numero"  x:Name="cmb"/>
+                        </StackLayout>
+                        <Button Text="Envoyer" Clicked="Button_Clicked" BackgroundColor="#FFE163"  x:Name="SendReserver"
+                            CornerRadius="50" Margin="50,0,50,0" HeightRequest="40" />
+                    </StackLayout>
+
+                </yummy:PancakeView>
+            </StackLayout>
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>

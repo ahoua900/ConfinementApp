@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage NavigationPage.HasNavigationBar="False"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ELieApp.MainPage"
+                  Title="Master page">
+
+    <MasterDetailPage.Master>
+        <ContentPage Title="master">
+            <ContentPage.Content>
+                <StackLayout>
+                    <Frame CornerRadius="30" BackgroundColor="Red" HeightRequest="160" TranslationY="-30">
+                        <StackLayout>
+                            <StackLayout Orientation="Horizontal" BackgroundColor="Red" Padding="6" Margin="0,20,0,0">
+                                <Frame CornerRadius="100" HeightRequest="30" WidthRequest="30" >
+                                    <Image Source="balance" Aspect="AspectFit" WidthRequest="30" HeightRequest="20" />
+                                </Frame>
+                                <StackLayout Orientation="Vertical">
+                                    <Label Text="George albert" TextColor="White" FontAttributes="Bold" FontSize="20"/>
+                                    <Label Text="mon compte" TextColor="White"/>
+                                    <StackLayout Orientation="Horizontal">
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text="Days =" TextColor="White"/>
+                                            <Label Text="7" TextColor="Black"/>
+                                        </StackLayout>
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text="Days =" TextColor="White"/>
+                                            <Label Text="7" TextColor="Black"/>
+                                        </StackLayout>
+                                    </StackLayout>
+                                </StackLayout>
+                                <Image Source="more" HeightRequest="40" WidthRequest="40" HorizontalOptions="EndAndExpand"/>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <Button Text="" BackgroundColor="White" HeightRequest="30" WidthRequest="40"/>
+                                <Label Text="1049 000 000" TextColor="White" FontSize="25"  HorizontalTextAlignment="Center"/>
+                                <StackLayout Orientation="Vertical">
+                                    <Label Text="+2545" TextColor="White"/>
+                                    <Label Text="+25794" TextColor="White"/>
+                                </StackLayout>
+                            </StackLayout>
+                            <Label Text="Le montant actuel de votre compte" TextColor="White" FontSize="15" HorizontalOptions="Center"/>
+
+                        </StackLayout>
+                    </Frame>
+
+                    <StackLayout Orientation="Vertical" BackgroundColor="White">
+                        <StackLayout Orientation="Horizontal" Margin="10,0,10,0">
+                            <Image Source="balance" HeightRequest="20" WidthRequest="20" Margin="20,0,20,0"/>
+                            <Button Text="Dashboard" BackgroundColor="White" TextColor="Black" FontSize="15" Clicked="Button_Clicked"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Margin="20">
+                            <Image Source="balance" HeightRequest="20" WidthRequest="20" Margin="20,0,20,0"/>
+                            <Button Text="Transfer" BackgroundColor="White" TextColor="Black" FontSize="15" Clicked="Button1_Clicked"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Margin="10,0,10,0">
+                            <Image Source="balance" HeightRequest="20" WidthRequest="20" Margin="20,0,20,0"/>
+                            <Button Text="Payments" BackgroundColor="White" TextColor="Black" FontSize="15" Clicked="Button2_Clicked"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Margin="10,0,10,0">
+                            <Image Source="balance" HeightRequest="20" WidthRequest="20" Margin="20,0,20,0"/>
+                            <Button Text="Stats" BackgroundColor="White" TextColor="Black" FontSize="15" Clicked="Button3_Clicked"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Margin="10,0,10,0">
+                            <Image Source="balance" HeightRequest="20" WidthRequest="20" Margin="20,0,20,0"/>
+                            <Button Text="History" BackgroundColor="White" TextColor="Black" FontSize="15" />
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Margin="10,0,10,0">
+                            <Image Source="balance" HeightRequest="20" WidthRequest="20" Margin="20,0,20,0"/>
+                            <Button Text="popularities" BackgroundColor="White" TextColor="Black" FontSize="15" />
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Margin="10,0,10,0">
+                            <Image Source="balance" HeightRequest="20" WidthRequest="20" Margin="20,0,20,0"/>
+                            <Button Text="Localisation GPS" BackgroundColor="White" TextColor="Black" FontSize="15" />
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Margin="10,0,10,0">
+                            <Image Source="balance" HeightRequest="20" WidthRequest="20" Margin="20,0,20,0"/>
+                            <Button Text="Settings" BackgroundColor="White" TextColor="Black" FontSize="15" />
+                        </StackLayout>
+
+                    </StackLayout>
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Master>
+
+    <MasterDetailPage.Detail>
+        <ContentPage BackgroundColor="White">
+            <ContentPage.Content>
+                <ScrollView>
+                    <StackLayout BackgroundColor="White" TranslationY="150">
+                        <ScrollView>
+                            <StackLayout BackgroundColor="White" >
+
+
+                                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" TranslationY="-10">
+                                    <Image Source="home" HeightRequest="20" WidthRequest="20" Aspect="AspectFit"/>
+                                    <Label Text="Detailed statistics" TextColor="Black" FontSize="25"/>
+                                </StackLayout>
+
+                                <StackLayout Orientation="Horizontal" HorizontalOptions="Start" Margin="40,0,0,0">
+
+                                    <Button Text="" WidthRequest="50" HeightRequest="20" BackgroundColor="Black" Margin="0,0,20,0"/>
+
+                                    <Button Text="" WidthRequest="50" HeightRequest="20" BackgroundColor="Black" Margin="30,0,20,0"/>
+
+                                    <Button Text="" WidthRequest="50" HeightRequest="20" BackgroundColor="Black" Margin="30,0,20,0"/>
+                                </StackLayout>
+
+                                <StackLayout Orientation="Horizontal" HorizontalOptions="End">
+                                    <StackLayout Orientation="Vertical" Margin="0,0,20,0" BackgroundColor="#f0f0f6" Padding="15,0,15,10">
+                                        <Label Text="+ 4521" TextColor="Black"  FontSize="20"/>
+                                        <Label Text="21" HorizontalTextAlignment="Center" Margin="20,0,0,0" />
+                                    </StackLayout>
+                                    <StackLayout Orientation="Vertical" Margin="0,0,20,0" BackgroundColor="#f0f0f6"  Padding="15,0,15,10">
+                                        <Label Text="+ 4521" TextColor="Black"  FontSize="20"/>
+                                        <Label Text="21" HorizontalTextAlignment="Center" Margin="20,0,0,0" />
+                                    </StackLayout>
+                                    <StackLayout Orientation="Vertical" Margin="0,0,20,0" BackgroundColor="#f0f0f6"  Padding="15,0,15,10">
+                                        <Label Text="+ 4521" TextColor="Black"  FontSize="20"/>
+                                        <Label Text="21" HorizontalTextAlignment="Center" Margin="20,0,0,0" />
+                                    </StackLayout>
+
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal">
+                                    <Image Source="spark" HeightRequest="70" WidthRequest="100" Aspect="AspectFit" Margin="-20,0,0,0"/>
+                                    <Image Source="spark" HeightRequest="70" WidthRequest="100" Aspect="AspectFit" Margin="-20,0,0,0"/>
+                                    <Image Source="spark" HeightRequest="70" WidthRequest="100" Aspect="AspectFit" Margin="-20,0,0,0"/>
+                                    <Image Source="spark" HeightRequest="70" WidthRequest="100" Aspect="AspectFit" Margin="-20,0,0,0"/>
+                                </StackLayout>
+
+                                <StackLayout Orientation="Horizontal">
+                                    <StackLayout Orientation="Vertical" HorizontalOptions="Start">
+                                        <Label Text="COmpte residuel"/>
+                                        <Label Text="Today" FontAttributes="Bold"/>
+                                    </StackLayout>
+                                    <Label Text="today"   HorizontalOptions="EndAndExpand"  Margin="0,0,0,0"/>
+                                </StackLayout>
+
+                                <StackLayout Orientation="Horizontal">
+                                    <StackLayout Orientation="Vertical">
+                                        <StackLayout Orientation="Horizontal">
+                                            <Image Source="Amor" Aspect="AspectFit" HeightRequest="80" WidthRequest="80" HorizontalOptions="Start"/>
+                                            <Label Text="01 COmpte residuelCOmpte residuelCOmpte residuelCOmpte residuel
+                           " TextColor="Black" FontSize="12"/>
+                                        </StackLayout>
+                                        <StackLayout Orientation="Horizontal">
+                                            <Image Source="Amor" Aspect="AspectFit" HeightRequest="80" WidthRequest="80" HorizontalOptions="Start"/>
+                                            <Label Text="01 COmpte residuelCOmpte residuelCOmpte residuelCOmpte residuel
+                            " TextColor="Black" FontSize="12"/>
+                                        </StackLayout>
+                                    </StackLayout>
+
+                                    <StackLayout Orientation="Vertical">
+                                        <StackLayout Orientation="Horizontal">
+                                            <Image Source="Amor" Aspect="AspectFit" HeightRequest="80" WidthRequest="80" HorizontalOptions="Start"/>
+                                            <Label Text="01 COmpte residuelCOmpte residuelCOmpte residuelCOmpte residuel
+                            " TextColor="Black" FontSize="12"/>
+                                        </StackLayout>
+                                        <StackLayout Orientation="Horizontal">
+                                            <Image Source="Amor" Aspect="AspectFit" HeightRequest="80" WidthRequest="80" HorizontalOptions="Start"/>
+                                            <Label Text="01 COmpte residuelCOmpte residuelCOmpte residuelCOmpte residuel
+                          " TextColor="Black" FontSize="12"/>
+                                        </StackLayout>
+                                    </StackLayout>
+                                </StackLayout>
+                            </StackLayout>
+                        </ScrollView>
+                    </StackLayout>
+                </ScrollView>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Detail>
+
+</MasterDetailPage>

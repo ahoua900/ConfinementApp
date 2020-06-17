@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage NavigationPage.HasNavigationBar="False"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ATschool.SignIn">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#282D2D" Spacing="20">
+            <Entry Placeholder="Username" PlaceholderColor="White"/>
+            <Entry Placeholder="Mot de passe" PlaceholderColor="White"/>
+            <Button Text="Connexion" HeightRequest="40" WidthRequest="150" HorizontalOptions="Center" CornerRadius="50"
+                    FontFamily="serif" BackgroundColor="#FF13E6F3" TextColor="White" Clicked="SaveIn_Clicked"/>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="J'ai pas de compte" TextColor="Gray" FontSize="14" FontFamily="serif"/>
+                <Button Text="Creer un compte" BackgroundColor="Transparent" TextColor="#FF13E6F3" Clicked="Login_Clicked"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

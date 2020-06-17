@@ -1,0 +1,17 @@
+C:\Users\HP\source\repos\Applical\Applical\Applical\bin\Debug\netstandard2.0\Applical.deps.json
+C:\Users\HP\source\repos\Applical\Applical\Applical\bin\Debug\netstandard2.0\Applical.dll
+C:\Users\HP\source\repos\Applical\Applical\Applical\bin\Debug\netstandard2.0\ref\Applical.dll
+C:\Users\HP\source\repos\Applical\Applical\Applical\bin\Debug\netstandard2.0\Applical.pdb
+C:\Users\HP\source\repos\Applical\Applical\Applical\obj\Debug\netstandard2.0\Applical.csprojAssemblyReference.cache
+C:\Users\HP\source\repos\Applical\Applical\Applical\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\HP\source\repos\Applical\Applical\Applical\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\HP\source\repos\Applical\Applical\Applical\obj\Debug\netstandard2.0\Applical.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\Applical\Applical\Applical\obj\Debug\netstandard2.0\Applical.AssemblyInfo.cs
+C:\Users\HP\source\repos\Applical\Applical\Applical\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\HP\source\repos\Applical\Applical\Applical\obj\Debug\netstandard2.0\Applical.dll
+C:\Users\HP\source\repos\Applical\Applical\Applical\obj\Debug\netstandard2.0\ref\Applical.dll
+C:\Users\HP\source\repos\Applical\Applical\Applical\obj\Debug\netstandard2.0\Applical.pdb
+C:\Users\HP\source\repos\Applical\Applical\Applical\obj\Debug\netstandard2.0\Calcul.xaml.g.cs
+C:\Users\HP\source\repos\Applical\Applical\Applical\obj\Debug\netstandard2.0\Taches.xaml.g.cs
+C:\Users\HP\source\repos\Applical\Applical\Applical\obj\Debug\netstandard2.0\Voir.xaml.g.cs
+C:\Users\HP\source\repos\Applical\Applical\Applical\obj\Debug\netstandard2.0\Save.xaml.g.cs

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage BackgroundImageSource="key.jpg"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ApplicationOne.Page1">
+    <ContentPage.Content>
+        <StackLayout Padding="20" BackgroundColor="#44"  Margin="25,25,25,20" >
+            <Label Text="Connectez-Vous" TextColor="#00BFFF" FontSize="35" FontFamily="cursive" Padding="35"/>
+            <Entry Placeholder="email" x:Name="emaile" TextColor="White"/>
+            <Label Text="" x:Name="labelEm" TextColor="Red"/>
+            <Entry Placeholder="mot de passe" x:Name="password" TextColor="White" IsPassword="True"/>
+             <Label Text="" x:Name="labelPass" TextColor="Red"/>
+             <Button Text="connexion" TextColor="White" BackgroundColor="#00BFFF" Clicked="Button_Clicked" CornerRadius="50" Margin="0,50,0,50"/>
+        </StackLayout>
+
+    </ContentPage.Content>
+
+</ContentPage>

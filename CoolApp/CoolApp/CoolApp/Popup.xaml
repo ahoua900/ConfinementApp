@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage BackgroundColor="#1A237E"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="CoolApp.Popup">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#1A237E">
+            <Label Text="Welcome"                
+                HorizontalOptions="Center" 
+                   FontSize="30" 
+                   TextColor="White"
+                   FontFamily="serif"/>
+            <Label Text="Connectez-Vous !"                
+                HorizontalOptions="Center" 
+                  FontSize="20"
+                   TextColor="Gray"
+                   FontFamily="serif" x:Name="login"/>
+            <Frame BackgroundColor="White" CornerRadius="30" Margin="10">
+                <StackLayout  Spacing="25" Padding="15" BackgroundColor="White">
+                    <Entry Placeholder="Votre nom" 
+                       PlaceholderColor="Gray"
+                        x:Name="nom" IsVisible="False"
+                            FontFamily="serif"/>
+                    <Entry Placeholder="Email" 
+                       PlaceholderColor="Gray"
+                       x:Name="email"  
+                           FontFamily="serif"/>
+                    <Entry Placeholder="Mot de passe" 
+                       PlaceholderColor="Gray"
+                        x:Name="Mdp" IsPassword="True"
+                            FontFamily="serif"/>
+                    <Entry Placeholder="Mot de passe" 
+                       PlaceholderColor="Gray"
+                        x:Name="ConfMdp" IsVisible="False" IsPassword="True"
+                            FontFamily="serif"/>
+                    <Button BackgroundColor="#1A237E" 
+                        CornerRadius="50" 
+                        Text="Connexion" 
+                        TextColor="White"
+                        Clicked="Button_Clicked"
+                        HeightRequest="40"
+                        FontFamily="serif" 
+                        HorizontalOptions="Center"
+                        x:Name="log"/>
+                    <Button BackgroundColor="#1A237E" 
+                        CornerRadius="50" 
+                        Text="Inscription" 
+                        TextColor="White"
+                        Clicked="But_Clicked"
+                        HeightRequest="40"
+                        FontFamily="serif" 
+                        HorizontalOptions="Center"
+                        x:Name="loge"
+                        IsVisible="False"/>
+                    <Button BackgroundColor="Transparent" 
+                        CornerRadius="50" 
+                        x:Name="logs"
+                        Text="Pas de compte , M'inscrire" 
+                        TextColor="#1A237E"
+                        Clicked="Log_Clicked"
+                        HeightRequest="40"
+                        FontFamily="serif" 
+                        HorizontalOptions="Center"/>
+                </StackLayout>
+            </Frame>
+            <Label Text="Merci et profitez bien de notre Cool App"                
+                HorizontalOptions="Center" 
+                  
+                   TextColor="Gray"
+                   FontFamily="serif"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

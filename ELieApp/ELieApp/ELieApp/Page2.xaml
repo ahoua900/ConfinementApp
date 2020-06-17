@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage  NavigationPage.HasNavigationBar="False"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ELieApp.Page2">
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView>
+                <StackLayout BackgroundColor="White">
+                    <StackLayout Orientation="Horizontal" BackgroundColor="Red" Padding="6">
+                        <Frame CornerRadius="100" HeightRequest="30" WidthRequest="30" >
+                            <Image Source="balance" Aspect="AspectFit" WidthRequest="30" HeightRequest="20" />
+                        </Frame>
+                        <StackLayout Orientation="Vertical">
+                            <Label Text="George albert" TextColor="White" FontAttributes="Bold" FontSize="20"/>
+                            <Label Text="mon compte" TextColor="White"/>
+                        </StackLayout>
+                        <Image Source="more" HeightRequest="40" WidthRequest="40" HorizontalOptions="EndAndExpand"/>
+                    </StackLayout>
+
+                    <Label Text="BALANCE" TextColor="Gray" FontSize="30" HorizontalTextAlignment="Center"/>
+
+                    <StackLayout BackgroundColor="CornflowerBlue" Orientation="Vertical" HeightRequest="150" Margin="20,0,20,0">
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Start" VerticalOptions="Start" Margin="20,50,20,0">
+                            <Label Text="XXXX" Margin="10,0,10,0" TextColor="White"/>
+                            <Label Text="XXXX" Margin="10,0,10,0" TextColor="White"/>
+                            <Label Text="XXXX" Margin="10,0,10,0" TextColor="White"/>
+                            <Label Text="XXXX" Margin="10,0,10,0" TextColor="White"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Margin="20,30,0,0">
+                            <Label Text="statistique des transactions" TextColor="White"/>
+                        </StackLayout>
+
+                    </StackLayout>
+
+                    <Button Text="visionner" BackgroundColor="Green" CornerRadius="50" 
+                    WidthRequest="50" HeightRequest="40" TextColor="White" 
+                    Margin="100,0,100,0" TranslationY="-30"/>
+
+                    <StackLayout Orientation="Horizontal" Margin="20,-30,20,0">
+                        <Button Text="view" TextColor="Black" BackgroundColor="Transparent" BorderColor="Black" BorderWidth="1" HorizontalOptions="Start" CornerRadius="50" WidthRequest="60" HeightRequest="35"/>
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                            <Label Text="xxxx" TextColor="Black" Margin="10,0,10,0"/>
+                            <Label Text="xxxx" TextColor="Black" Margin="0,0,10,0"/>
+                            <Label Text="xxxx" TextColor="Black" Margin="0,0,10,0"/>
+                            <Label Text="xxxx" TextColor="Black" Margin="0,0,10,0"/>
+                        </StackLayout>
+                        <Button Text="view" TextColor="White" BackgroundColor="Green" HorizontalOptions="EndAndExpand" CornerRadius="50" WidthRequest="80" HeightRequest="35"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal" Margin="20,0,20,0" >
+                        <Button Text="view" TextColor="Black" BackgroundColor="Transparent" BorderColor="Black" BorderWidth="1"  HorizontalOptions="Start" CornerRadius="50" WidthRequest="60" HeightRequest="35"/>
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                            <Label Text="xxxx" TextColor="Black" Margin="10,0,10,0"/>
+                            <Label Text="xxxx" TextColor="Black" Margin="0,0,10,0"/>
+                            <Label Text="xxxx" TextColor="Black" Margin="0,0,10,0"/>
+                            <Label Text="xxxx" TextColor="Black" Margin="0,0,10,0"/>
+                        </StackLayout>
+                        <Button Text="view" TextColor="White" BackgroundColor="Green" HorizontalOptions="EndAndExpand" CornerRadius="50" WidthRequest="80" HeightRequest="35"/>
+                    </StackLayout>
+                    <Label Text="view more" TextColor="Gray" HorizontalTextAlignment="Center" HorizontalOptions="Center"/>
+
+                    <StackLayout Orientation="Horizontal"  Margin="20,0,20,0">
+                        <StackLayout Orientation="Vertical" HorizontalOptions="Start">
+                            <Label Text="COmpte residuel"/>
+                            <Label Text="Today" FontAttributes="Bold"/>
+                        </StackLayout>
+                        <Label Text="." FontSize="80" TextColor="Red" HorizontalOptions="EndAndExpand"  Margin="0,-40,0,0"/>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal"  Margin="20,-10,20,20">
+                        <StackLayout Orientation="Vertical" HorizontalOptions="Start">
+                            <Label Text="COmpte residuel"/>
+                            <Label Text="xxxx  xxxx  xxxx xxxx" FontAttributes="Bold" TextColor="Black" FontSize="25" Margin="0,-10,0,0"/>
+                        </StackLayout>
+
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical" HorizontalOptions="Start" Margin="20,0,20,20">
+                        <Label Text="COmpte"/>
+                        <Label Text="residuel residuel" FontAttributes="Bold" FontSize="20" TextColor="Black" Margin="0,-8,0,0"/>
+                    </StackLayout>
+
+
+                    <StackLayout Orientation="Horizontal">
+                        <Frame CornerRadius="100" HeightRequest="20" WidthRequest="20" >
+                            <Image Source="balance" Aspect="AspectFit" WidthRequest="20" HeightRequest="20" />
+                        </Frame>
+                        <StackLayout Orientation="Vertical"  Margin="0,0,20,0" HorizontalOptions="End">
+                            <Label Text="COmpte"/>
+                            <Button Text=" " CornerRadius="5" TextColor="White" BackgroundColor="Red" HeightRequest="5" WidthRequest="270"/>
+                        </StackLayout>
+
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal">
+                        <Frame CornerRadius="100" HeightRequest="20" WidthRequest="20" >
+                            <Image Source="balance" Aspect="AspectFit" WidthRequest="20" HeightRequest="20" />
+                        </Frame>
+                        <StackLayout Orientation="Vertical"  Margin="0,0,20,0" HorizontalOptions="End">
+                            <Label Text="COmpte"/>
+                            <Button Text=" " CornerRadius="5" TextColor="White" BackgroundColor="Red" HeightRequest="5" WidthRequest="270"/>
+                        </StackLayout>
+
+                    </StackLayout>
+
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

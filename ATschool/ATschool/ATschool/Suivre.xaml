@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage NavigationPage.HasNavigationBar="False"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ATschool.Suivre">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#282D2D" Spacing="25" Padding="20,50,20,0">
+            <Label Text="Suivre un cours de facon anonyme" FontSize="20" TextColor="White" FontFamily="serif" 
+                   HorizontalOptions="Start"/>
+            <Button Text="Anonyme" HeightRequest="40" WidthRequest="150" HorizontalOptions="Center" CornerRadius="50"
+                    FontFamily="serif" BackgroundColor="#FF13E6F3" TextColor="White" Clicked="Anonyme_Clicked"/>
+            <Label Text="Suivre un cours avec mon compte" FontSize="20" TextColor="White" FontFamily="serif" 
+                  HorizontalOptions="Start"/>
+            <Button Text="Mon compte" HeightRequest="40" WidthRequest="150" HorizontalOptions="Center" CornerRadius="50"
+                    FontFamily="serif" BackgroundColor="#FF13E6F3" TextColor="White" Clicked="Compte_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

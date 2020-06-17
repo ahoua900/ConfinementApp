@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MessAp.DeletePage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Suppression" FontSize="23" TextColor="Black" FontFamily="serif" HorizontalOptions="Center"/>
+            
+            <ListView RowHeight="80" x:Name="FromList">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Vertical">
+
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="Username = " FontSize="15" FontFamily="serif" TextColor="Black"/>
+                                    <Label Text="{Binding User}" TextColor="Red" FontSize="13"/>
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="Adresse email = " FontSize="15" FontFamily="serif" TextColor="Black"/>
+                                    <Label Text="{Binding Email} " TextColor="Red" FontSize="13"/>
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="Mot de passe = " FontSize="15" FontFamily="serif" TextColor="Black"/>
+                                    <Label Text="{Binding Password}" TextColor="Red" FontSize="13"/>
+                                </StackLayout>
+
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Button Text="Supprimer" BackgroundColor="Black" TextColor="White" FontAttributes="Bold" WidthRequest="100"
+                        HeightRequest="40" Clicked="Deletes_Clicked" CornerRadius="50" FontFamily="serif"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

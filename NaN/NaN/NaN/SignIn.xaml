@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage NavigationPage.HasNavigationBar="False"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:renderer="clr-namespace:NaN.Renderer"
+             mc:Ignorable="d"
+             x:Class="NaN.SignIn">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#312E2E" Spacing="25">
+            <Grid Margin="0,50,0,20" TranslationY="30">
+                <Image Source="nan" Aspect="AspectFit" HeightRequest="80" WidthRequest="60" Grid.Row="0" Grid.Column="0"/>
+                <Label Text="Connexion" x:Name="log" TextColor="White" FontSize="25" FontFamily="serif" TextDecorations="Underline" Grid.Row="0" Grid.Column="1"/>
+            </Grid>
+
+            <Frame Padding="2" CornerRadius="50" BackgroundColor="LightGray"  HeightRequest="40" WidthRequest="150" IsVisible="False" x:Name="vue">
+                <renderer:BorderLessEnty Placeholder=" Votre Nom" x:Name="nom" />
+            </Frame>
+            
+            <Frame Padding="2" CornerRadius="50" BackgroundColor="LightGray"  HeightRequest="40" WidthRequest="150">
+                    <renderer:BorderLessEnty Placeholder=" Votre Email" x:Name="email"/>
+                </Frame>
+                
+                <Frame Padding="2" CornerRadius="50" BackgroundColor="LightGray"   HeightRequest="40" WidthRequest="150">
+                <renderer:BorderLessEnty Placeholder="Votre specialite" x:Name="spe"/>
+                </Frame>
+            <Frame Padding="2" CornerRadius="50" BackgroundColor="LightGray"   HeightRequest="40" WidthRequest="150"  IsVisible="False" x:Name="vues">
+                <renderer:BorderLessEnty Placeholder="Code d'inscription" x:Name="code"/>
+            </Frame>
+
+            <Frame Padding="2" CornerRadius="50" BackgroundColor="LightGray"  HeightRequest="40" WidthRequest="150">
+                    <renderer:BorderLessEnty Placeholder="mot de passe" IsPassword="True" x:Name="mdp"/>
+                </Frame>
+
+            <StackLayout Orientation="Horizontal" Spacing="20">
+                <Button Text="Connexion" TextColor="White" FontSize="17" 
+                   Margin="20,10,20,0" FontFamily="serif" BackgroundColor="#9F81F7" CornerRadius="50" Clicked="Go_Clicked" x:Name="cone"/>
+                <Button Text="Inscription" TextColor="White" FontSize="17" 
+                   Margin="20,10,20,0" FontFamily="serif" BackgroundColor="#9F81F7" CornerRadius="50" Clicked="Save_Clicked" x:Name="ins" IsVisible="False"/>
+            </StackLayout>
+            <Button Text="Inscrivez vous ici " TextColor="#9F81F7" FontSize="17" 
+                   Margin="20,20,20,0" FontFamily="serif" BackgroundColor="Transparent" CornerRadius="50" Clicked="List_Clicked" x:Name="list"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

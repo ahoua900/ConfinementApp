@@ -1,0 +1,40 @@
+C:\Users\HP\source\repos\CoolApp\CoolApp\CoolApp\bin\Debug\netstandard2.0\CoolApp.deps.json
+C:\Users\HP\source\repos\CoolApp\CoolApp\CoolApp\bin\Debug\netstandard2.0\CoolApp.dll
+C:\Users\HP\source\repos\CoolApp\CoolApp\CoolApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\HP\source\repos\CoolApp\CoolApp\CoolApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\HP\source\repos\CoolApp\CoolApp\CoolApp\obj\Debug\netstandard2.0\Views\Acceuil.xaml.g.cs
+C:\Users\HP\source\repos\CoolApp\CoolApp\CoolApp\obj\Debug\netstandard2.0\Views\Profil.xaml.g.cs
+C:\Users\HP\source\repos\CoolApp\CoolApp\CoolApp\obj\Debug\netstandard2.0\Views\ViewMes.xaml.g.cs
+C:\Users\HP\source\repos\CoolApp\CoolApp\CoolApp\obj\Debug\netstandard2.0\CoolApp.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\CoolApp\CoolApp\CoolApp\obj\Debug\netstandard2.0\CoolApp.AssemblyInfo.cs
+C:\Users\HP\source\repos\CoolApp\CoolApp\CoolApp\obj\Debug\netstandard2.0\Views\Message.xaml.g.cs
+C:\Users\HP\source\repos\CoolApp\CoolApp\CoolApp\obj\Debug\netstandard2.0\Views\Page1.xaml.g.cs
+C:\Users\HP\source\repos\CoolApp\CoolApp\CoolApp\obj\Debug\netstandard2.0\Views\Planing.xaml.g.cs
+C:\Users\HP\source\repos\CoolApp\CoolApp\CoolApp\obj\Debug\netstandard2.0\CoolApp.dll
+C:\Users\HP\source\repos\CoolApp\CoolApp\CoolApp\obj\Debug\netstandard2.0\ref\CoolApp.dll
+C:\Users\HP\source\repos\CoolApp\CoolApp\CoolApp\obj\Debug\netstandard2.0\CoolApp.pdb
+C:\Users\HP\source\repos\CoolApp\CoolApp\CoolApp\bin\Debug\netstandard2.0\ref\CoolApp.dll
+C:\Users\HP\source\repos\CoolApp\CoolApp\CoolApp\bin\Debug\netstandard2.0\CoolApp.pdb
+C:\Users\HP\source\repos\CoolApp\CoolApp\CoolApp\obj\Debug\netstandard2.0\CoolApp.csprojAssemblyReference.cache
+C:\Users\HP\source\repos\CoolApp\CoolApp\CoolApp\obj\Debug\netstandard2.0\Popup.xaml.g.cs
+C:\Users\HP\source\repos\CoolApp\CoolApp\CoolApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\HP\Desktop\Projet a achever\CoolApp\CoolApp\CoolApp\bin\Debug\netstandard2.0\CoolApp.deps.json
+C:\Users\HP\Desktop\Projet a achever\CoolApp\CoolApp\CoolApp\bin\Debug\netstandard2.0\CoolApp.dll
+C:\Users\HP\Desktop\Projet a achever\CoolApp\CoolApp\CoolApp\bin\Debug\netstandard2.0\ref\CoolApp.dll
+C:\Users\HP\Desktop\Projet a achever\CoolApp\CoolApp\CoolApp\bin\Debug\netstandard2.0\CoolApp.pdb
+C:\Users\HP\Desktop\Projet a achever\CoolApp\CoolApp\CoolApp\obj\Debug\netstandard2.0\CoolApp.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\Projet a achever\CoolApp\CoolApp\CoolApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\HP\Desktop\Projet a achever\CoolApp\CoolApp\CoolApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\HP\Desktop\Projet a achever\CoolApp\CoolApp\CoolApp\obj\Debug\netstandard2.0\Popup.xaml.g.cs
+C:\Users\HP\Desktop\Projet a achever\CoolApp\CoolApp\CoolApp\obj\Debug\netstandard2.0\Views\Acceuil.xaml.g.cs
+C:\Users\HP\Desktop\Projet a achever\CoolApp\CoolApp\CoolApp\obj\Debug\netstandard2.0\Views\Message.xaml.g.cs
+C:\Users\HP\Desktop\Projet a achever\CoolApp\CoolApp\CoolApp\obj\Debug\netstandard2.0\Views\Page1.xaml.g.cs
+C:\Users\HP\Desktop\Projet a achever\CoolApp\CoolApp\CoolApp\obj\Debug\netstandard2.0\Views\Planing.xaml.g.cs
+C:\Users\HP\Desktop\Projet a achever\CoolApp\CoolApp\CoolApp\obj\Debug\netstandard2.0\Views\Profil.xaml.g.cs
+C:\Users\HP\Desktop\Projet a achever\CoolApp\CoolApp\CoolApp\obj\Debug\netstandard2.0\Views\ViewMes.xaml.g.cs
+C:\Users\HP\Desktop\Projet a achever\CoolApp\CoolApp\CoolApp\obj\Debug\netstandard2.0\CoolApp.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Projet a achever\CoolApp\CoolApp\CoolApp\obj\Debug\netstandard2.0\CoolApp.AssemblyInfo.cs
+C:\Users\HP\Desktop\Projet a achever\CoolApp\CoolApp\CoolApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\HP\Desktop\Projet a achever\CoolApp\CoolApp\CoolApp\obj\Debug\netstandard2.0\CoolApp.dll
+C:\Users\HP\Desktop\Projet a achever\CoolApp\CoolApp\CoolApp\obj\Debug\netstandard2.0\ref\CoolApp.dll
+C:\Users\HP\Desktop\Projet a achever\CoolApp\CoolApp\CoolApp\obj\Debug\netstandard2.0\CoolApp.pdb

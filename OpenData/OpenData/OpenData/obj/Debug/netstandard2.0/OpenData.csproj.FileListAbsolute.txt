@@ -1,0 +1,38 @@
+C:\Users\HP\source\repos\OpenData\OpenData\OpenData\bin\Debug\netstandard2.0\OpenData.deps.json
+C:\Users\HP\source\repos\OpenData\OpenData\OpenData\bin\Debug\netstandard2.0\OpenData.dll
+C:\Users\HP\source\repos\OpenData\OpenData\OpenData\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\HP\source\repos\OpenData\OpenData\OpenData\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\HP\source\repos\OpenData\OpenData\OpenData\obj\Debug\netstandard2.0\Vues\Acceuil.xaml.g.cs
+C:\Users\HP\source\repos\OpenData\OpenData\OpenData\obj\Debug\netstandard2.0\Vues\Organisation.xaml.g.cs
+C:\Users\HP\source\repos\OpenData\OpenData\OpenData\obj\Debug\netstandard2.0\Vues\Ressource.xaml.g.cs
+C:\Users\HP\source\repos\OpenData\OpenData\OpenData\obj\Debug\netstandard2.0\Vues\Thematique.xaml.g.cs
+C:\Users\HP\source\repos\OpenData\OpenData\OpenData\obj\Debug\netstandard2.0\Vues\ViewOr.xaml.g.cs
+C:\Users\HP\source\repos\OpenData\OpenData\OpenData\obj\Debug\netstandard2.0\Vues\ViewThe.xaml.g.cs
+C:\Users\HP\source\repos\OpenData\OpenData\OpenData\obj\Debug\netstandard2.0\OpenData.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\OpenData\OpenData\OpenData\obj\Debug\netstandard2.0\OpenData.AssemblyInfo.cs
+C:\Users\HP\source\repos\OpenData\OpenData\OpenData\obj\Debug\netstandard2.0\OpenData.dll
+C:\Users\HP\source\repos\OpenData\OpenData\OpenData\obj\Debug\netstandard2.0\ref\OpenData.dll
+C:\Users\HP\source\repos\OpenData\OpenData\OpenData\obj\Debug\netstandard2.0\OpenData.pdb
+C:\Users\HP\source\repos\OpenData\OpenData\OpenData\bin\Debug\netstandard2.0\ref\OpenData.dll
+C:\Users\HP\source\repos\OpenData\OpenData\OpenData\bin\Debug\netstandard2.0\OpenData.pdb
+C:\Users\HP\source\repos\OpenData\OpenData\OpenData\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\HP\source\repos\OpenData\OpenData\OpenData\obj\Debug\netstandard2.0\OpenData.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\Projet a achever\OpenData\OpenData\OpenData\bin\Debug\netstandard2.0\OpenData.deps.json
+C:\Users\HP\Desktop\Projet a achever\OpenData\OpenData\OpenData\bin\Debug\netstandard2.0\OpenData.dll
+C:\Users\HP\Desktop\Projet a achever\OpenData\OpenData\OpenData\bin\Debug\netstandard2.0\ref\OpenData.dll
+C:\Users\HP\Desktop\Projet a achever\OpenData\OpenData\OpenData\bin\Debug\netstandard2.0\OpenData.pdb
+C:\Users\HP\Desktop\Projet a achever\OpenData\OpenData\OpenData\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\HP\Desktop\Projet a achever\OpenData\OpenData\OpenData\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\HP\Desktop\Projet a achever\OpenData\OpenData\OpenData\obj\Debug\netstandard2.0\Vues\Acceuil.xaml.g.cs
+C:\Users\HP\Desktop\Projet a achever\OpenData\OpenData\OpenData\obj\Debug\netstandard2.0\Vues\Organisation.xaml.g.cs
+C:\Users\HP\Desktop\Projet a achever\OpenData\OpenData\OpenData\obj\Debug\netstandard2.0\Vues\Ressource.xaml.g.cs
+C:\Users\HP\Desktop\Projet a achever\OpenData\OpenData\OpenData\obj\Debug\netstandard2.0\Vues\Thematique.xaml.g.cs
+C:\Users\HP\Desktop\Projet a achever\OpenData\OpenData\OpenData\obj\Debug\netstandard2.0\Vues\ViewOr.xaml.g.cs
+C:\Users\HP\Desktop\Projet a achever\OpenData\OpenData\OpenData\obj\Debug\netstandard2.0\Vues\ViewThe.xaml.g.cs
+C:\Users\HP\Desktop\Projet a achever\OpenData\OpenData\OpenData\obj\Debug\netstandard2.0\OpenData.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Projet a achever\OpenData\OpenData\OpenData\obj\Debug\netstandard2.0\OpenData.AssemblyInfo.cs
+C:\Users\HP\Desktop\Projet a achever\OpenData\OpenData\OpenData\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\HP\Desktop\Projet a achever\OpenData\OpenData\OpenData\obj\Debug\netstandard2.0\OpenData.dll
+C:\Users\HP\Desktop\Projet a achever\OpenData\OpenData\OpenData\obj\Debug\netstandard2.0\ref\OpenData.dll
+C:\Users\HP\Desktop\Projet a achever\OpenData\OpenData\OpenData\obj\Debug\netstandard2.0\OpenData.pdb
+C:\Users\HP\Desktop\Projet a achever\OpenData\OpenData\OpenData\obj\Debug\netstandard2.0\OpenData.csprojAssemblyReference.cache

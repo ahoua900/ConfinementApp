@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage NavigationPage.HasNavigationBar="False" BackgroundImageSource="student" 
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             mc:Ignorable="d"
+             x:Class="MessAp.Profil">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <StackLayout BackgroundColor="White" Margin="20,0,20,0" TranslationY="100">
+                    <yummy:PancakeView CornerRadius="100"  HeightRequest="200" Margin="60,0,60,0" TranslationY="-60">
+                        <Image Source="home" HorizontalOptions="Center" Aspect="Fill"/>
+                    </yummy:PancakeView>
+
+                    <StackLayout/>
+                    <StackLayout Orientation="Vertical" Padding="20,0,20,0" TranslationY="-40">
+                        <Label Text="Mon profil" FontSize="20" 
+                           TextColor="Black" HorizontalOptions="Center" 
+                           FontAttributes="Bold" CharacterSpacing="4" FontFamily="serif"/>
+                        <StackLayout Orientation="Vertical" >
+                            <Label Text="Username" FontSize="12" FontFamily="serif"/>
+                            <Frame BackgroundColor="LightGray"  HeightRequest="30" Padding="2">
+                                <Label Text="" TextColor="Black" x:Name="UserPro"/>
+                            </Frame>
+
+                        </StackLayout>
+                        <StackLayout Orientation="Vertical" >
+                            <Label Text="Email" FontSize="12" FontFamily="serif"/>
+                            <Frame BackgroundColor="LightGray"  HeightRequest="30" Padding="2">
+                                <Label Text="" TextColor="Black" x:Name="EmailPro" />
+                            </Frame>
+                        </StackLayout>
+                        <StackLayout Orientation="Vertical" >
+                            <Label Text="Mot de passe" FontSize="12" FontFamily="serif"/>
+                            <Frame BackgroundColor="LightGray"  HeightRequest="30" Padding="2">
+                                <Label Text="" TextColor="Black" x:Name="PassPro"/>
+                            </Frame>
+                        </StackLayout>
+                        <Button Text="Modifer" FontFamily="serif" FontAttributes="Bold" FontSize="15" BackgroundColor="White"
+                            TextColor="Black" BorderColor="Black" BorderWidth="2" VerticalOptions="EndAndExpand" Clicked="Button_Clicked"/>
+                    </StackLayout>
+                    
+                </StackLayout>
+                
+            </StackLayout>
+        </ScrollView>
+   
+    </ContentPage.Content>
+</ContentPage>

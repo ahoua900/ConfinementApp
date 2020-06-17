@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage NavigationPage.HasNavigationBar="False"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ATschool.Cours">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#282D2D">
+            <ListView BackgroundColor="#282D2D" x:Name="Liste" RowHeight="100" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell >
+                            
+                                
+                                <StackLayout Orientation="Horizontal" Padding="20">
+                                    <Button Text="{Binding Matiere}" TextColor="White" FontSize="15"
+                                           HeightRequest="40" WidthRequest="200" FontFamily="serif" BackgroundColor="#FF13E6F3" />
+                                    <Button Text="{Binding Hour}" TextColor="Black" BackgroundColor="White" FontSize="20" FontFamily="serif" HorizontalOptions="EndAndExpand"/>
+                                </StackLayout>
+                           
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

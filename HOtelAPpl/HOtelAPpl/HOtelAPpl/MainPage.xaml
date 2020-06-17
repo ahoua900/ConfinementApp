@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage NavigationPage.HasNavigationBar="False"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="HOtelAPpl.MainPage">
+
+    <StackLayout BackgroundColor="#232121" Spacing="20">
+        <Image Source="acceuil" 
+               Aspect="AspectFill" 
+               WidthRequest="300" 
+               HeightRequest="210"/>
+        <Label Text="Welcome TO Hotel" 
+               TextColor="White" FontSize="25" FontFamily="serif"
+               HorizontalTextAlignment="Center" 
+               HorizontalOptions="Center"
+               FontAttributes="Bold"/>
+
+        <StackLayout Orientation="Vertical" Spacing="10" >
+            <Frame CornerRadius="50" Padding="3" BackgroundColor="LightGray" Margin="20,0,20,0">
+                <Entry Placeholder="Username" x:Name="nom" FontFamily="serif"/>
+            </Frame>
+            <Frame CornerRadius="50" Padding="3" BackgroundColor="LightGray" Margin="20,0,20,0">
+                <Entry Placeholder="Password" x:Name="UserName" FontFamily="serif"/>
+            </Frame>
+            <Label Text="Jour d'arrivée" TextColor="White" FontSize="20" FontFamily="serif"  Margin="20,0,20,0"/>
+            <Frame CornerRadius="50" Padding="3" BackgroundColor="LightGray" Margin="20,0,20,0">
+            <DatePicker MinimumDate="01/01/2020"
+                            MaximumDate="12/31/2020"
+                            Date="01/01/2020" 
+                        Format="D"/> 
+            </Frame>
+            <Button Text="Connexion" BackgroundColor="#FFE163" 
+                    WidthRequest="100" 
+                    HeightRequest="40" 
+                    CornerRadius="50" Margin="50,0,50,0" Clicked="Button_Clicked" FontFamily="serif"/>
+        </StackLayout>
+        <Label Text="Sont autorisés a se connecter que les gérants" TextColor="Gray" FontSize="15"
+               HorizontalTextAlignment="Center" FontFamily="serif"/>
+    </StackLayout>
+
+</ContentPage>

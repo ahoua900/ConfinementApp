@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage BackgroundColor="White" NavigationPage.HasNavigationBar="False"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             mc:Ignorable="d"
+             x:Class="CoolApp.Views.Profil">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="Mon profil"
+                   TextColor="#1A237E"
+                   FontSize="22"
+                   FontFamily="serif"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Start"/>
+                <yummy:PancakeView CornerRadius="100" HorizontalOptions="Center">
+                    <Image x:Name="profil"
+                       Aspect="AspectFit"
+                       HeightRequest="120"
+                       WidthRequest="100"
+                       Source="home"/>
+
+                </yummy:PancakeView>
+                <Button Text="Changer photo" TextColor="White" BackgroundColor="#1A237E" HorizontalOptions="Center" CornerRadius="50" Clicked="Button_Clicked_1"/>
+                <Grid>
+                    <Label Text="Mon nom :" TextColor="Black" FontSize="15" Grid.Row="0" Grid.Column="0"/>
+                    <Label Text="Pas de nom" TextColor="#1A237E" FontSize="15" Grid.Row="0" Grid.Column="1" x:Name="nom"/>
+
+                    <Label Text="Email :" TextColor="Black" FontSize="15" Grid.Row="1" Grid.Column="0"/>
+                    <Label Text="Pas d'email" TextColor="#1A237E" FontSize="15" Grid.Row="2" Grid.Column="1" x:Name="email"/>
+
+                    <Label Text="Mon mot de passe :" TextColor="Black" FontSize="15" Grid.Row="2" Grid.Column="0"/>
+                    <Label Text="Pas de mot de passe" TextColor="#1A237E" FontSize="15" Grid.Row="4" Grid.Column="1" x:Name="pass"/>
+
+                </Grid>
+                <Button Text="Mise a jour" TextColor="White" BackgroundColor="#1A237E" HorizontalOptions="Center" Clicked="Update_Clicked"/>
+
+                <Label Text="Modifer mes coordonnées" TextColor="Black" FontFamily="serif" FontSize="20" HorizontalOptions="Start"/>
+                <Grid x:Name="Modif" RowSpacing="15" >
+                    <Entry Placeholder="Nom" PlaceholderColor="gray" x:Name="modifNom" Grid.Row="0" />
+                    <Entry Placeholder="Email" PlaceholderColor="gray" x:Name="modifEmail" Grid.Row="1"/>
+                    <Entry Placeholder="Mot de passe" PlaceholderColor="gray" x:Name="modifPassword" Grid.Row="2"/>
+                </Grid>
+
+                <Button Text="Modifier" TextColor="White" BackgroundColor="#1A237E" HorizontalOptions="EndAndExpand" Clicked="Button_Clicked"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

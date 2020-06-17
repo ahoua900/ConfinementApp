@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage NavigationPage.HasNavigationBar="False"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:renderers="clr-namespace:MessAp.Renderers"
+             mc:Ignorable="d"
+             x:Class="MessAp.SignIn">
+    <ContentPage.Content>
+        <StackLayout >
+            <Image Source="home" Aspect="AspectFill" HeightRequest="300"/>
+            <Frame BackgroundColor="#302B2B" CornerRadius="30" TranslationY="-25">
+
+                <StackLayout Spacing="20" Padding="20"  TranslationY="-20">
+                    <Label Text="Connexion" TextColor="White" FontSize="25" FontFamily="serif" 
+                           CharacterSpacing="5" HorizontalOptions="Center"/>
+                    <Frame CornerRadius="50" BackgroundColor="#C6BFBF" HeightRequest="40" Padding="2">
+
+                        <renderers:BorderlessEntry Placeholder="Email or Username" x:Name="email" ClearButtonVisibility="WhileEditing"/>
+                    </Frame>
+                    <Frame CornerRadius="50" BackgroundColor="#C6BFBF" HeightRequest="40" Padding="2">
+                        <renderers:BorderlessEntry Placeholder="Mot de passe" x:Name="Mdpasse"
+                                                   ClearButtonVisibility="WhileEditing" IsPassword="True"/>
+                        
+                    </Frame>
+                    <StackLayout Orientation="Horizontal" BackgroundColor="#C6BFBF">
+                        <Label Text="" TextColor="Red" FontFamily="serif" x:Name="code"/>
+                        <Button Text="Scanner" TextColor="White" BackgroundColor="Red" 
+                            HeightRequest="40" WidthRequest="100" HorizontalOptions="EndAndExpand"/>
+                    </StackLayout>
+
+                    <Button Text="Connexion" BackgroundColor="Red" TextColor="White" FontAttributes="Bold" WidthRequest="100"
+                        HeightRequest="40" Clicked="Button_Clicked" CornerRadius="50"/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

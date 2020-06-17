@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage NavigationPage.HasNavigationBar="False"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:renderer="clr-namespace:NaN.Renderer"
+             mc:Ignorable="d"
+             x:Class="NaN.Cours">
+    <ContentPage.Content>
+        <StackLayout Spacing="20" BackgroundColor="#312E2E">
+            <Button Text="Commencer" TextColor="White" FontSize="15"  
+                   Margin="50,30,50,0" BackgroundColor="#9F81F7" CornerRadius="50" HeightRequest="40" Clicked="Start_Clicked"/>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Quiz du jour" TextColor="#9F81F7" FontSize="30" FontFamily="cursive" HorizontalOptions="Start"/>
+                <StackLayout Orientation="Vertical" HorizontalOptions="EndAndExpand">
+                    <Label Text="Temps a écouler :" TextColor="White" FontSize="15" FontFamily="serif" HorizontalOptions="Start"/>
+                    <DatePicker x:Name="time" FontSize="15" TextColor="#9F81F7" />
+                </StackLayout>
+            </StackLayout>
+            <StackLayout BackgroundColor="White"   HeightRequest="200" Margin="10,0,10,0" Spacing="25"  x:Name="quiz" IsVisible="False">
+                <Label Text="(Tache) Realiser ue application de gestion pour votre etablissement et envoyer votre lien github en dessous" TextColor="Black" FontSize="20"/>
+                <Frame Padding="2"  BackgroundColor="LightGray"   HeightRequest="40" WidthRequest="150">
+                    <renderer:BorderLessEnty Placeholder="Lien github (verifier avant l'envoie )"/>
+                </Frame>
+            </StackLayout>
+            <Button Text="Envoyer" TextColor="White" FontSize="15"  
+                    Margin="50,30,50,0" BackgroundColor="#9F81F7" CornerRadius="50" HeightRequest="40"  Clicked="End_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

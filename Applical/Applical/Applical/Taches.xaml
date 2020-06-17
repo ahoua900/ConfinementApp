@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage NavigationPage.HasNavigationBar="False"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Applical.Taches">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <Frame HorizontalOptions="Start" VerticalOptions="Start" 
+                   CornerRadius="50" BackgroundColor="Purple" 
+                   HeightRequest="150" Margin="20,0,20,0">
+                <StackLayout>
+                    <Label Text="Enregistrer mes notes"/>
+                    <Button Text="ajouter" Clicked="Button_Clicked"/>
+                </StackLayout>
+            </Frame>
+            <Frame HorizontalOptions="Center" VerticalOptions="Center" 
+                   CornerRadius="50" BackgroundColor="Cyan" 
+                   HeightRequest="150" Margin="30,0,30,0">
+                <StackLayout>
+                    <Label Text="Visionner mes notes"/>
+                    <Button Text="Mes notes"/>
+                </StackLayout>
+            </Frame>
+            <Frame HorizontalOptions="EndAndExpand" VerticalOptions="End" 
+                   CornerRadius="50" BackgroundColor="Black" 
+                   HeightRequest="150" Margin="20,0,20,0">
+                <StackLayout>
+                    <Label Text="Calculer ma moyenne"/>
+                    <Button Text="Clacul" BackgroundColor="White" CornerRadius="50" Margin="50,0,50,0"/>
+                </StackLayout>
+            </Frame>
+            
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

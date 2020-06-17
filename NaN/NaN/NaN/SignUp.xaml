@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage NavigationPage.HasNavigationBar="False"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:renderer="clr-namespace:NaN.Renderer"
+             mc:Ignorable="d"
+             x:Class="NaN.SignUp">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#312E2E" Spacing="25">
+            <Grid Margin="0,50,0,20" TranslationY="30">
+                <Image Source="nan" Aspect="AspectFit" HeightRequest="80" WidthRequest="60" Grid.Row="0" Grid.Column="0"/>
+                <Label Text="Inscription" TextColor="White" FontSize="25" FontFamily="serif" TextDecorations="Underline" Grid.Row="0" Grid.Column="1"/>
+            </Grid>
+            <Grid>
+                <Label Text="Nom :" TextColor="White" FontSize="15" FontFamily="serif" Grid.Row="0" Grid.Column="0"/>
+                <Frame Padding="2" CornerRadius="50" BackgroundColor="LightGray"  Grid.Row="0" Grid.Column="1" HeightRequest="40" WidthRequest="150">
+                    <renderer:BorderLessEnty Placeholder="Nom"/>
+                </Frame>
+                <Label Text="Email :" TextColor="White" FontSize="15" FontFamily="serif" Grid.Row="1" Grid.Column="0"/>
+                <Frame Padding="2" CornerRadius="50" BackgroundColor="LightGray"  Grid.Row="1" Grid.Column="1" HeightRequest="40" WidthRequest="150">
+                    <renderer:BorderLessEnty Placeholder="Email"/>
+                </Frame>
+                <Label Text="Specialité :" TextColor="White" FontSize="15" FontFamily="serif" Grid.Row="2" Grid.Column="0"/>
+                <Frame Padding="2" CornerRadius="50" BackgroundColor="LightGray"  Grid.Row="2" Grid.Column="1" HeightRequest="40" WidthRequest="150">
+                    <renderer:BorderLessEnty Placeholder="Specialite"/>
+                </Frame>
+                <Label Text="Code inscription :" TextColor="White" FontSize="15" FontFamily="serif" Grid.Row="3" Grid.Column="0"/>
+                <Frame Padding="2" CornerRadius="50" BackgroundColor="LightGray"  Grid.Row="3" Grid.Column="1" HeightRequest="40">
+                    <renderer:BorderLessEnty Placeholder="code d'inscription" IsPassword="True"/>
+                </Frame>
+                <Label Text="Mot de passe :" TextColor="White" FontSize="15" FontFamily="serif" Grid.Row="3" Grid.Column="0"/>
+                <Frame Padding="2" CornerRadius="50" BackgroundColor="LightGray"  Grid.Row="3" Grid.Column="1" HeightRequest="40">
+                    <renderer:BorderLessEnty Placeholder="mot de passe" IsPassword="True"/>
+                </Frame>
+            </Grid>
+            <Button Text="Inscription" TextColor="White" FontSize="17" 
+                   Margin="20,50,20,0"  FontFamily="serif" BackgroundColor="#9F81F7" CornerRadius="50" Clicked="Button_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
